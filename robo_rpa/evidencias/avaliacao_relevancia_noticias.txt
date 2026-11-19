@@ -1,0 +1,15 @@
+v1 (coleta original): precisão 0.619 · recall 0.867 · VP 13 FP 8 FN 2 VN 12
+   falso positivo: Equipamentos Defesa Civil Municipal
+   falso positivo: Defesa Civil ministra curso sobre desastres ambientais para educadores e moradores do Campo Limpo As
+   falso positivo: Plano de Contingência de Proteção e Defesa Civil Municipal é reconhecido como Boas Práticas Os PLANC
+   falso positivo: Agentes da Defesa Civil distribuem cestas básicas para moradores de comunidades Doação realizada pel
+   falso positivo: Geólogas da Divisão de Prevenção da Defesa Civil ministram curso aos professores da rede pública As 
+   falso positivo: Equipes da Defesa Civil Municipal apoiam na distribuição de máscaras Os agentes de São Miguel e Lapa
+   falso negativo: Saiba como se proteger dos raios durante as tempestades Abrigue-se em casa, edifício, área coberta o
+   falso negativo: Prédios irregulares são vistoriados por equipe da COMDEC Ao todo, três imóveis ocupados foram fiscal
+   falso positivo: 27 bosques urbanos e mais 17 mil árvores com entrega de outros 7 em diferentes regiões da cidade
+   falso positivo: Com piscina semiolímpica coberta e aquecida, Prefeitura entrega modernização completa do Centro Espo
+v2 (filtro atual): precisão 0.929 · recall 0.867 · VP 13 FP 1 FN 2 VN 19
+   falso negativo: Defesa Civil da Cidade de São Paulo promove 2ª Semana de Prevenção e Redução de Riscos e Desastres N
+   falso negativo: Saiba mais sobre o Plano Municipal de Redução de Riscos, instrumento que centraliza o mapeamento de 
+   falso positivo: Geólogas da Divisão de Prevenção da Defesa Civil ministram curso aos professores da rede pública As 

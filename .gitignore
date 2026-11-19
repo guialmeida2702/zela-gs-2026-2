@@ -1,0 +1,31 @@
+# Segredos
+.env
+*.env
+!.env.example
+.streamlit/secrets.toml
+frontend/.streamlit/secrets.toml
+
+# Dados locais
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# IDE / SO
+.vscode/
+.idea/
+.DS_Store
+
+# Saídas geradas localmente
+robo_rpa/saida/
+cluster/resultados/*/saida_terminal.txt
+corpus_pln/saida/
+assistente_voz/avaliacao/audios_reais_ruido10db/

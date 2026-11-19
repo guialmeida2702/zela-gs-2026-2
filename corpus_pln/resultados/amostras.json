@@ -1,0 +1,57 @@
+{
+  "texto_puro": {
+    "fonte": "cartilha_chuvas_sintetica.pdf",
+    "secao": "Preparação para o período de chuvas",
+    "origem": "texto_limpo",
+    "linha": {
+      "text": "Preparação para o período de chuvas\nEsta cartilha de exemplo reúne orientações gerais para moradores de áreas sujeitas a alagamento. Ela foi escrita para testar a ferramenta de construção de corpus e não substitui as orientações oficiais da Defesa Civil.\nAntes da temporada de chuvas, limpe calhas e ralos, guarde documentos em local alto e combine com a família um ponto de encontro. Anote os telefones de emergência: 193 para os Bombeiros e 199 para a Defesa Civil.\nNão jogue lixo nem entulho em córregos e bocas de lobo. O entupimento da drenagem é uma das principais causas de alagamento em vias urbanas, e a limpeza depende também da colaboração dos moradores."
+    }
+  },
+  "perguntas_respostas": {
+    "fonte": "pagina_iluminacao_sintetica.html",
+    "secao": "Iluminação pública: como pedir reparo > O que não é iluminação pública?",
+    "origem": "extraida",
+    "linha": {
+      "instruction": "O que não é iluminação pública?",
+      "input": "",
+      "output": "Fio partido, falta de energia em casa e transformador com defeito são atendidos pela distribuidora de energia, e não pela prefeitura. Fio caído é emergência: afaste-se e ligue 193."
+    }
+  },
+  "conversacional": {
+    "fonte": "cartilha_chuvas_sintetica.pdf",
+    "secao": "Preparação para o período de chuvas",
+    "origem": "pares_da_fonte",
+    "linha": {
+      "messages": [
+        {
+          "role": "system",
+          "content": "Você é um assistente que orienta cidadãos com base em documentos oficiais. Responda de forma curta e clara, em português. Se a informação não estiver na sua base, diga que não sabe e indique o canal oficial."
+        },
+        {
+          "role": "user",
+          "content": "O que o documento \"cartilha chuvas sintetica\" informa sobre \"Preparação para o período de chuvas\"?"
+        },
+        {
+          "role": "assistant",
+          "content": "Esta cartilha de exemplo reúne orientações gerais para moradores de áreas sujeitas a alagamento. Ela foi escrita para testar a ferramenta de construção de corpus e não substitui as orientações oficiais da Defesa Civil.\nAntes da temporada de chuvas, limpe calhas e ralos, guarde documentos em local alto e combine com a família um ponto de encontro. Anote os telefones de emergência: 193 para os Bombeiros e 199 para a Defesa Civil.\nNão jogue lixo nem entulho em córregos e bocas de lobo. O entupimento da drenagem é uma das principais causas de alagamento em vias urbanas, e a limpeza depende também da colaboração dos moradores."
+        },
+        {
+          "role": "user",
+          "content": "O que fazer durante um alagamento?"
+        },
+        {
+          "role": "assistant",
+          "content": "Se a água começar a subir, desligue a energia elétrica no quadro geral e leve crianças, pessoas idosas e pessoas com deficiência para um local seguro. Não tente atravessar ruas alagadas a pé nem de carro.\nEvite o contato com a água da enchente, que pode estar contaminada. Se precisar sair, use calçado fechado e mantenha distância de postes, fios caídos e bueiros sem tampa.\nQuem está em local seguro deve permanecer nele. Acompanhe os avisos oficiais e só retorne para casa quando a Defesa Civil informar que não há mais risco."
+        },
+        {
+          "role": "user",
+          "content": "O que o documento \"cartilha chuvas sintetica\" informa sobre \"Depois que a água baixar\"?"
+        },
+        {
+          "role": "assistant",
+          "content": "Antes de entrar em casa, observe se há rachaduras novas, paredes inclinadas ou cheiro de gás. Na dúvida, não entre e peça uma vistoria à Defesa Civil pelo telefone 199.\nLave e desinfete pisos, paredes e objetos que tiveram contato com a água. Descarte alimentos e remédios atingidos pela enchente, mesmo que pareçam em bom estado.\nRegistre o problema no canal de atendimento da prefeitura para que a equipe de zeladoria programe a limpeza de bueiros e a retirada de entulho da via."
+        }
+      ]
+    }
+  }
+}

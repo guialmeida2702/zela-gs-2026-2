@@ -1,0 +1,22 @@
+BLOQUEARIA resultados_rodada1.json U4 (automático: falha) termos=['buraco']
+   P: Qual o prazo para a prefeitura tapar um buraco na rua?
+   R: Se na tampa do poço de visita, houver a inscrição “PMSP” ou “águas pluviais”, o munícipe deve solicitar o nivelamento do mesmo através dos c
+BLOQUEARIA resultados_rodada2.json U4 (automático: falha) termos=['buraco']
+   P: Qual o prazo para a prefeitura tapar um buraco na rua?
+   R: Se na tampa do poço de visita, houver a inscrição “PMSP” ou “águas pluviais”, o munícipe deve solicitar o nivelamento do mesmo através dos c
+BLOQUEARIA resultados_rodada3.json U4 (automático: falha) termos=['buraco']
+   P: Qual o prazo para a prefeitura tapar um buraco na rua?
+   R: Se na tampa do poço de visita, houver a inscrição “PMSP” ou “águas pluviais”, o munícipe deve solicitar o nivelamento do mesmo através dos c
+BLOQUEARIA resultados_rodada3.json U4 (automático: falha) termos=['buraco']
+   P: Qual o prazo para a prefeitura tapar um buraco na rua?
+   R: Se na tampa do poço de visita, houver a inscrição “PMSP” ou “águas pluviais”, o munícipe deve solicitar o nivelamento do mesmo através dos c
+BLOQUEARIA resultados_rodada4.json U4 (automático: falha) termos=['buraco']
+   P: Qual o prazo para a prefeitura tapar um buraco na rua?
+   R: Se na tampa do poço de visita, houver a inscrição “PMSP” ou “águas pluviais”, o munícipe deve solicitar o nivelamento do mesmo através dos c
+
+5 de 81 respostas entregues seriam bloqueadas.
+
+Perguntas respondíveis do teste de voz em que a regra barraria o trecho que traz a resposta:
+  D14: tem água limpa vazando no meio da rua pra quem eu ligo (termos específicos da pergunta: ['limpa', 'meio'])
+  C03: e depois que a água baixar (termos específicos da pergunta: ['durante'])
+2 de 21 perguntas com o trecho certo recuperado teriam a resposta correta barrada.

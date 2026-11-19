@@ -1,0 +1,10 @@
+{
+  "faber": {
+    "sintese_media_s": 0.612,
+    "fator_tempo_real_medio": 0.083
+  },
+  "cadu": {
+    "sintese_media_s": 0.626,
+    "fator_tempo_real_medio": 0.08
+  }
+}

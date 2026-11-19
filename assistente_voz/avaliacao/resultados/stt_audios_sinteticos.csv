@@ -1,0 +1,61 @@
+opcao;arquivo;locutor;condicao;referencia;transcricao;wer;segundos
+tiny;S01_faber.wav;sintetico-faber;silencioso;Tem um buraco enorme na frente do ponto de ônibus da minha rua.;Tem um buraco enorme na frente do ponto de ônibus da minha rua.;0.0;1.19
+tiny;S02_cadu.wav;sintetico-cadu;silencioso;O poste da praça está apagado faz uma semana.;O poste da praça está apagado faz uma semana.;0.0;0.28
+tiny;S03_edresson.wav;sintetico-edresson;silencioso;Como eu peço a poda de uma árvore na calçada?;Como eu peço a poder de vuma dar burinato ao sada.;0.6;0.28
+tiny;S04_faber.wav;sintetico-faber;silencioso;A tampa do bueiro afundou e está escrito Sabesp nela.;A tampa do buéro afundou e está escrito sabéspinella.;0.3;0.26
+tiny;S05_cadu.wav;sintetico-cadu;silencioso;Quanto tempo a subprefeitura leva para fazer a poda?;quanto tempo suprifitura leva para fazer a pôda?;0.222;0.26
+tiny;S06_edresson.wav;sintetico-edresson;silencioso;Tem água limpa vazando no meio do asfalto há dois dias.;Tem água, limpo, fazendo no meio das palpas, há dois dias.;0.364;0.3
+tiny;S07_faber.wav;sintetico-faber;silencioso;Jogaram entulho e um sofá velho na esquina de casa.;jogar um entúlio e um sofávelho na esquina de casa.;0.5;0.25
+tiny;S08_cadu.wav;sintetico-cadu;silencioso;O semáforo do cruzamento está piscando amarelo desde ontem.;Você é mafado cruzamento está piscando a amarelo desde ontem.;0.444;0.27
+tiny;S09_edresson.wav;sintetico-edresson;silencioso;Qual é a multa para quem não conserta a calçada?;qual é a nuca para quem não conselha possadas?;0.4;0.28
+tiny;S10_faber.wav;sintetico-faber;silencioso;Caiu um fio de energia na calçada e está soltando faísca.;Aí um fio de energia na calçada está soltando o faísca.;0.273;0.29
+tiny;S11_cadu.wav;sintetico-cadu;silencioso;Posso pedir para plantar uma árvore na frente da escola?;Posse pedir para plantar uma árvore na frente da escola.;0.1;0.26
+tiny;S12_edresson.wav;sintetico-edresson;silencioso;O Zela guarda o meu telefone ou o meu CPF?;O zero aguarda o meu telefone e o meu ctx.;0.4;0.22
+tiny;S13_faber.wav;sintetico-faber;silencioso;O que eu faço se a minha rua alagar de novo?;O que eu faço sem em água lar de novo?;0.455;0.25
+tiny;S14_cadu.wav;sintetico-cadu;silencioso;Tem um carro abandonado na rua faz três semanas.;Tem um carro abandonado na rua faz três semanas.;0.0;0.25
+tiny;S15_edresson.wav;sintetico-edresson;silencioso;A calçada em frente ao posto de saúde está toda quebrada.;A calçada, em frente ao posto, de saúde está toda quebrada.;0.0;0.29
+tiny;S16_faber.wav;sintetico-faber;ruido;O bueiro da esquina está entupido de folhas e terra.;O poeiro da esquina está em tu pido de folhas e terra.;0.4;0.29
+tiny;S17_cadu.wav;sintetico-cadu;ruido;Depois da enchente posso beber a água da torneira?;depois da gente posso beber água da tronída.;0.333;0.29
+tiny;S18_edresson.wav;sintetico-edresson;ruido;Quem é responsável por consertar o semáforo?;Quem é disponsável por conceitar o semato?;0.429;0.29
+tiny;S19_faber.wav;sintetico-faber;ruido;Uma árvore grande caiu em cima do muro do vizinho.;Um árvore grande caínissima do Muro do Visinho.;0.5;0.32
+tiny;S20_cadu.wav;sintetico-cadu;ruido;E se o galho estiver encostando nos fios?;e se o gale estiver encostando nos filhos.;0.25;0.29
+small;S01_faber.wav;sintetico-faber;silencioso;Tem um buraco enorme na frente do ponto de ônibus da minha rua.;Tem um buraco enorme na frente do ponto de ônibus da minha rua.;0.0;2.29
+small;S02_cadu.wav;sintetico-cadu;silencioso;O poste da praça está apagado faz uma semana.;O poste da praça está apagado faz uma semana.;0.0;1.95
+small;S03_edresson.wav;sintetico-edresson;silencioso;Como eu peço a poda de uma árvore na calçada?;Como eu peço, eu posso me voa mandar vorina calçada.;0.6;3.07
+small;S04_faber.wav;sintetico-faber;silencioso;A tampa do bueiro afundou e está escrito Sabesp nela.;A tampa do boeiro afundou e está escrito sabéspio nela.;0.2;3.28
+small;S05_cadu.wav;sintetico-cadu;silencioso;Quanto tempo a subprefeitura leva para fazer a poda?;Quanto tempo a superfeitura leva para fazer a poda?;0.111;2.79
+small;S06_edresson.wav;sintetico-edresson;silencioso;Tem água limpa vazando no meio do asfalto há dois dias.;Tem água limpavazando no meio das palpadas há dois dias.;0.364;2.99
+small;S07_faber.wav;sintetico-faber;silencioso;Jogaram entulho e um sofá velho na esquina de casa.;jogar um entulho e um sofavelho na esquina de casa.;0.4;2.8
+small;S08_cadu.wav;sintetico-cadu;silencioso;O semáforo do cruzamento está piscando amarelo desde ontem.;O semáforo do cruzamento está piscando amarelo desde ontem.;0.0;2.05
+small;S09_edresson.wav;sintetico-edresson;silencioso;Qual é a multa para quem não conserta a calçada?;Qual é a multa para quem não concentra a passada?;0.2;1.85
+small;S10_faber.wav;sintetico-faber;silencioso;Caiu um fio de energia na calçada e está soltando faísca.;Aí um fio de energia na calçada e está soltando o faísca.;0.182;2.01
+small;S11_cadu.wav;sintetico-cadu;silencioso;Posso pedir para plantar uma árvore na frente da escola?;Posso pedir pra plantar uma árvore na frente da escola?;0.1;1.78
+small;S12_edresson.wav;sintetico-edresson;silencioso;O Zela guarda o meu telefone ou o meu CPF?;Ou zero aguarda o meu telefone ou meu CTEQ.;0.5;1.7
+small;S13_faber.wav;sintetico-faber;silencioso;O que eu faço se a minha rua alagar de novo?;O que eu faço sem minha rola de novo?;0.364;1.64
+small;S14_cadu.wav;sintetico-cadu;silencioso;Tem um carro abandonado na rua faz três semanas.;Tenha um carro abandonado na rua faz três semanas.;0.111;1.7
+small;S15_edresson.wav;sintetico-edresson;silencioso;A calçada em frente ao posto de saúde está toda quebrada.;A calçada em frente ao posto de saúde está toda quebrada.;0.0;1.92
+small;S16_faber.wav;sintetico-faber;ruido;O bueiro da esquina está entupido de folhas e terra.;O boeiro da esquina está entupido de folhas e terra.;0.1;1.79
+small;S17_cadu.wav;sintetico-cadu;ruido;Depois da enchente posso beber a água da torneira?;Depois da enchente, posso beber a água da torneira.;0.0;1.69
+small;S18_edresson.wav;sintetico-edresson;ruido;Quem é responsável por consertar o semáforo?;Quem é responsável por considerar o semáforo?;0.143;1.76
+small;S19_faber.wav;sintetico-faber;ruido;Uma árvore grande caiu em cima do muro do vizinho.;O mármore grande cai em cima do muro do vizinho.;0.3;1.73
+small;S20_cadu.wav;sintetico-cadu;ruido;E se o galho estiver encostando nos fios?;e se o galo estiver encostando nos fios.;0.125;1.59
+small+vocab;S01_faber.wav;sintetico-faber;silencioso;Tem um buraco enorme na frente do ponto de ônibus da minha rua.;Tenho um buraco enorme na frente do ponto de ônibus da minha rua.;0.077;1.97
+small+vocab;S02_cadu.wav;sintetico-cadu;silencioso;O poste da praça está apagado faz uma semana.;O poste da praça está apagado faz uma semana.;0.0;1.68
+small+vocab;S03_edresson.wav;sintetico-edresson;silencioso;Como eu peço a poda de uma árvore na calçada?;Como eu peço, a poda de humanarvore na calçada.;0.2;1.86
+small+vocab;S04_faber.wav;sintetico-faber;silencioso;A tampa do bueiro afundou e está escrito Sabesp nela.;A tampa do bueiro afundou e está escrito Sabesp nela.;0.0;1.87
+small+vocab;S05_cadu.wav;sintetico-cadu;silencioso;Quanto tempo a subprefeitura leva para fazer a poda?;Quanto tempo a subprefeitura leva para fazer a poda?;0.0;1.72
+small+vocab;S06_edresson.wav;sintetico-edresson;silencioso;Tem água limpa vazando no meio do asfalto há dois dias.;Tem água limpavazando no meio das palpas há dois dias.;0.364;1.65
+small+vocab;S07_faber.wav;sintetico-faber;silencioso;Jogaram entulho e um sofá velho na esquina de casa.;Jogar um entulho e um sofavelho na esquina de casa.;0.4;1.78
+small+vocab;S08_cadu.wav;sintetico-cadu;silencioso;O semáforo do cruzamento está piscando amarelo desde ontem.;O semáforo do cruzamento está piscando amarelo desde ontem.;0.0;1.7
+small+vocab;S09_edresson.wav;sintetico-edresson;silencioso;Qual é a multa para quem não conserta a calçada?;Qual é a multa para quem não concentra a poçada?;0.2;1.81
+small+vocab;S10_faber.wav;sintetico-faber;silencioso;Caiu um fio de energia na calçada e está soltando faísca.;Aí um fio de energia na calçada e está soltando faísca.;0.091;1.81
+small+vocab;S11_cadu.wav;sintetico-cadu;silencioso;Posso pedir para plantar uma árvore na frente da escola?;Posso pedir pra plantar uma árvore na frente da escola?;0.1;1.86
+small+vocab;S12_edresson.wav;sintetico-edresson;silencioso;O Zela guarda o meu telefone ou o meu CPF?;Ou Zela Guarda, o meu telefone ou o meu CET.;0.2;1.72
+small+vocab;S13_faber.wav;sintetico-faber;silencioso;O que eu faço se a minha rua alagar de novo?;O que eu faço sem a rua lagar de novo?;0.273;1.57
+small+vocab;S14_cadu.wav;sintetico-cadu;silencioso;Tem um carro abandonado na rua faz três semanas.;Tenho um carro abandonado na rua faz três semanas.;0.111;1.65
+small+vocab;S15_edresson.wav;sintetico-edresson;silencioso;A calçada em frente ao posto de saúde está toda quebrada.;A calçada em frente ao posto de saúde está toda quebrada.;0.0;1.76
+small+vocab;S16_faber.wav;sintetico-faber;ruido;O bueiro da esquina está entupido de folhas e terra.;O bueiro da esquina está entupido de folhas e terra.;0.0;1.74
+small+vocab;S17_cadu.wav;sintetico-cadu;ruido;Depois da enchente posso beber a água da torneira?;Depois da enchente, posso beber a água da torneira.;0.0;1.69
+small+vocab;S18_edresson.wav;sintetico-edresson;ruido;Quem é responsável por consertar o semáforo?;Quem é responsável por considerar o semáforo?;0.143;1.68
+small+vocab;S19_faber.wav;sintetico-faber;ruido;Uma árvore grande caiu em cima do muro do vizinho.;O mármore grande cai em cima do muro do vizinho.;0.3;1.67
+small+vocab;S20_cadu.wav;sintetico-cadu;ruido;E se o galho estiver encostando nos fios?;E se o gale estiver encostando nos fios?;0.125;1.78

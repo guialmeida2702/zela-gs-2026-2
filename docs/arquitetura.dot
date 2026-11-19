@@ -1,0 +1,37 @@
+digraph zela {
+  graph [rankdir=LR, fontname="Helvetica", fontsize=12, nodesep=0.35, ranksep=0.55, pad=0.3, bgcolor="white"];
+  node  [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#0F5C63", fillcolor="#E8F2F2", penwidth=1.2, margin="0.15,0.08"];
+  edge  [color="#4A5654", fontname="Helvetica", fontsize=9, arrowsize=0.7];
+
+  subgraph cluster_pessoas { label="Pessoas"; style="rounded,dashed"; color="#9AA5A3"; fontcolor="#4A5654";
+    cidadao [label="Cidadão", shape=ellipse, fillcolor="#FFFFFF"];
+    gestor  [label="Gestor público", shape=ellipse, fillcolor="#FFFFFF"];
+  }
+  subgraph cluster_canais { label="Canais"; style="rounded,dashed"; color="#9AA5A3"; fontcolor="#4A5654";
+    front [label="Front Streamlit\nrelato + foto · tire dúvidas\nfila · indicadores · imagens"];
+    voz   [label="Assistente de voz (PLN)\nWhisper → texto → Piper"];
+    ouviai [label="OuviAí (IoT)\nEdge Impulse no celular", fillcolor="#F4F1EA", color="#8A6D1F"];
+  }
+  subgraph cluster_api { label="API Zela (FastAPI)"; style="rounded"; color="#0F5C63"; fontcolor="#0F5C63";
+    triagem [label="Triagem\nLLM + regras de segurança\n+ encaminhamento"];
+    visao   [label="Visão computacional\nfissuras (ONNX)"];
+    rag     [label="Assistente (RAG)\nBM25 + denso · citações\n+ abstenção"];
+    banco   [label="SQLite\nsolicitações · histórico\nauditoria", shape=cylinder];
+  }
+  subgraph cluster_ext { label="Fontes externas"; style="rounded,dashed"; color="#9AA5A3"; fontcolor="#4A5654";
+    llm   [label="LLM\n(local llama.cpp ou\nGroq/Gemini)", fillcolor="#FFFFFF"];
+    dados [label="Dados abertos\nBrasilAPI · Nominatim\nOpen-Meteo", fillcolor="#FFFFFF"];
+    kb    [label="Páginas oficiais\nPrefeitura de SP", fillcolor="#FFFFFF"];
+  }
+  robo [label="Robô RPA\nnotícias · clima · planilhas OS\nfotos · e-mail", fillcolor="#F4F1EA", color="#8A6D1F"];
+
+  cidadao -> front; cidadao -> voz; cidadao -> ouviai [style=dashed, label="evolução:\nsirene"];
+  gestor -> front;
+  front -> triagem; front -> visao; front -> rag;
+  voz -> rag [label="pergunta\n+ memória"];
+  triagem -> banco; visao -> triagem [label="evidência\nda foto"];
+  rag -> banco [label="protocolo"];
+  triagem -> llm; rag -> llm; triagem -> dados; rag -> kb [style=dashed, label="coleta\ncom data"];
+  robo -> banco [label="API do gestor"]; robo -> dados; robo -> visao [style=dashed, label="mesmo\nmodelo"];
+  gestor -> robo [style=dashed, label="boletim"];
+}

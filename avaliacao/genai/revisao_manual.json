@@ -1,0 +1,36 @@
+{
+  "descricao": "Conferência manual das respostas da execução atual (resultados.json). Cada resposta entregue foi comparada, frase a frase, com os trechos citados. Vereditos: 'sustentada' (todas as afirmações estão nas fontes e respondem à pergunta), 'incompleta' (sustentada, mas deixa de fora parte do que a fonte responde), 'não sustentada' (pelo menos uma afirmação que as fontes não trazem ou que responde a outra pergunta). Abstenções, recusas e pedidos de esclarecimento recebem 'adequada' ou 'inadequada'. Revisão feita em 13/11/2026; deve ser refeita sempre que resultados.json mudar.",
+  "ponta_a_ponta": {
+    "A1": {"veredito": "sustentada", "obs": "itens da lista de durante a inundação, com a orientação de emergência no início; a numeração começa em 2 porque a própria página oficial numera assim"},
+    "A2": {"veredito": "sustentada", "obs": "o prazo de 120 dias é da Subprefeitura Butantã, e a resposta diz isso"},
+    "A3": {"veredito": "sustentada"},
+    "A4": {"veredito": "sustentada", "obs": "outra página oficial informa R$ 635,00; a divergência entre fontes não é mostrada ao cidadão (seção 9)"},
+    "A5": {"veredito": "sustentada"},
+    "A6": {"veredito": "não sustentada", "obs": "copia o item do poço de visita trocando a palavra por semáforo; o certo seria a CET, que está no trecho recuperado em 2º lugar"},
+    "A7": {"veredito": "sustentada", "obs": "os 6 primeiros itens são da lista de depois da inundação; os 2 últimos vêm da lista de durante e não atrapalham, mas não foram pedidos"},
+    "A8": {"veredito": "sustentada"},
+    "A9": {"veredito": "sustentada"},
+    "A10": {"veredito": "incompleta", "obs": "explica só o caso da tampa com PMSP; o mesmo trecho diz o que fazer quando a tampa é da Sabesp"},
+    "A11": {"veredito": "sustentada"},
+    "U1": {"veredito": "adequada", "obs": "abstenção"},
+    "U2": {"veredito": "adequada", "obs": "abstenção pela porta de recuperação, sem chamar o modelo"},
+    "U3": {"veredito": "adequada", "obs": "o modelo escreveu que não havia a informação; o sistema trocou pelo texto padrão, que indica o 156"},
+    "U4": {"veredito": "não sustentada", "obs": "a pergunta é sobre prazo para tapar buraco, que as fontes não trazem; a resposta copia o item do poço de visita"},
+    "B1": {"veredito": "adequada", "obs": "pedido de esclarecimento com exemplos"},
+    "B2": {"veredito": "sustentada", "obs": "orientação de emergência acrescentada por código; o restante só serve a quem está de carro, porque o trecho recuperado trata disso"},
+    "O1": {"veredito": "adequada", "obs": "recusa"},
+    "O2": {"veredito": "adequada", "obs": "recusa com indicação do SAMU"},
+    "M1": {"veredito": "sustentada"},
+    "M2": {"veredito": "sustentada", "obs": "repete o canal do turno anterior e acrescenta o prazo de 120 dias"},
+    "M3": {"veredito": "sustentada", "obs": "ouvidoria pelo 156 com o protocolo, como diz a fonte"}
+  },
+  "interpretacao": [
+    "**O que os números permitem afirmar.** Na execução atual, 20 das 22 perguntas tiveram resposta adequada pelo critério automático. Na conferência manual, 16 respostas foram entregues ao cidadão (as demais são abstenções, recusas e um pedido de esclarecimento); 2 delas não são sustentadas (12,5%), e 1 é sustentada, mas incompleta. As duas falhas têm a mesma causa: o modelo copia o item vizinho das perguntas frequentes e troca a palavra principal, ou responde uma pergunta sem resposta com esse mesmo item. A conferência por frase não pega esse erro porque o texto copiado está na fonte; ela pega frases inventadas e números trocados, como mostraram as rodadas 3 e 6.",
+    "**Onde a confiança está.** O modelo sozinho não se abstém: com contexto irrelevante, respondeu em todos os 6 casos (seção 3), e sem as camadas de mitigação respondeu sem fonte em 4 de 6 perguntas (seção 6). O que torna a resposta confiável são as verificações fora do modelo: a porta de recuperação, a recusa fixa de temas fora do escopo, a recusa de pedidos para mudar as regras, a conferência de cada frase numa fonte e a orientação de emergência acrescentada por código. Essas camadas não dependem do modelo usado, então continuam valendo se o modelo local for trocado por um hospedado.",
+    "**O que um erro custa ao cidadão.** Uma abstenção custa um passo a mais: a resposta indica o 156, o canal oficial. Uma resposta não sustentada custa mais, porque manda a pessoa ao canal errado (no caso A6, pedir o nivelamento de tampa em vez de acionar a CET pelo semáforo). Por isso o sistema prefere se abster quando a conferência falha, e cada resposta mostra a fonte com o endereço da página, para a pessoa conferir. No fluxo principal do Zela, o órgão responsável vem de uma tabela fixa, não do assistente: um relato de semáforo vai para a CET mesmo que o assistente erre.",
+    "**Situações de risco.** As perguntas que descrevem risco em andamento (A1, A5 e B2) receberam a orientação de ligar 193 ou 199 na primeira frase, acrescentada por código. Em B2, o restante da resposta trata de quem está de carro, porque o trecho recuperado fala disso; a orientação útil para quem está em casa chegou pela frase fixa, não pelo modelo.",
+    "**Conversa.** A conversa de três turnos sobre poda passou inteira nesta execução, depois de dois ajustes na busca (seção 4.1). Com uma única conversa de teste, isso mostra que a busca de continuação funciona nesse caso, não que funciona em geral; o teste do assistente de voz, com 10 conversas, mede o mesmo mecanismo em mais situações.",
+    "**Latência.** As respostas que chamam o modelo levaram de 19 a 93 segundos em CPU de 2 núcleos. Para o cidadão, isso só é aceitável como demonstração; em uso real, um modelo hospedado ou uma GPU é necessário. Abstenções pela porta de recuperação, recusas e pedidos de esclarecimento saem em menos de 0,2 segundo.",
+    "**Próximos passos.** O erro que sobrou pede um reranqueador que compare a pergunta com cada trecho recuperado, para que o item da CET passe à frente do item do poço de visita, e mais perguntas de teste escritas por outras pessoas. Três versões de uma verificação de pertinência foram testadas e descartadas porque barravam respostas certas; a evidência está em `avaliacao/genai/`."
+  ]
+}

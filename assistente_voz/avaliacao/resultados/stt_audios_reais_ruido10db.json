@@ -1,0 +1,98 @@
+{
+  "small": {
+    "wer_geral": 0.1421,
+    "wer_por_condicao": {
+      "ruido_10db": 0.1421
+    },
+    "wer_por_locutor": {
+      "voz1": {
+        "wer": 0.1143,
+        "audios": 7
+      },
+      "voz2": {
+        "wer": 0.2206,
+        "audios": 7
+      },
+      "voz3": {
+        "wer": 0.0847,
+        "audios": 6
+      }
+    },
+    "wer_por_genero": {
+      "masculino": {
+        "wer": 0.1008,
+        "audios": 13
+      },
+      "feminino": {
+        "wer": 0.2206,
+        "audios": 7
+      }
+    },
+    "wer_por_faixa_etaria": {
+      "18-29": {
+        "wer": 0.1143,
+        "audios": 7
+      },
+      "40-49": {
+        "wer": 0.2206,
+        "audios": 7
+      },
+      "50-59": {
+        "wer": 0.0847,
+        "audios": 6
+      }
+    },
+    "tempo_medio_s": 1.82,
+    "fator_tempo_real": 0.436,
+    "carga_modelo_s": 1.1,
+    "audios": 20
+  },
+  "small+vocab": {
+    "wer_geral": 0.1066,
+    "wer_por_condicao": {
+      "ruido_10db": 0.1066
+    },
+    "wer_por_locutor": {
+      "voz1": {
+        "wer": 0.0429,
+        "audios": 7
+      },
+      "voz2": {
+        "wer": 0.2059,
+        "audios": 7
+      },
+      "voz3": {
+        "wer": 0.0678,
+        "audios": 6
+      }
+    },
+    "wer_por_genero": {
+      "masculino": {
+        "wer": 0.0543,
+        "audios": 13
+      },
+      "feminino": {
+        "wer": 0.2059,
+        "audios": 7
+      }
+    },
+    "wer_por_faixa_etaria": {
+      "18-29": {
+        "wer": 0.0429,
+        "audios": 7
+      },
+      "40-49": {
+        "wer": 0.2059,
+        "audios": 7
+      },
+      "50-59": {
+        "wer": 0.0678,
+        "audios": 6
+      }
+    },
+    "tempo_medio_s": 1.86,
+    "fator_tempo_real": 0.446,
+    "carga_modelo_s": 0.8,
+    "audios": 20
+  }
+}

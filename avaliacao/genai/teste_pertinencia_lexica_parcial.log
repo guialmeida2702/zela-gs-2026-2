@@ -1,0 +1,8 @@
+1. recuperação
+2. calibração
+3. gerador com contexto controlado
+4. ponta a ponta
+  e2e A1: False
+  e2e A2: True
+  e2e A3: True
+  e2e A4: True

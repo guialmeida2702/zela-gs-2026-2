@@ -1,0 +1,48 @@
+# Blueprint do Render (opcional, diferencial "aplicação em produção").
+# No painel do Render: New > Blueprint > selecione este repositório.
+# Depois preencha LLM_API_KEY e GESTOR_SENHA (marcados com sync: false) e ajuste CORS_ORIGINS/API_URL
+# com as URLs reais geradas para os dois serviços.
+services:
+  - type: web
+    name: zela-api
+    runtime: docker
+    rootDir: backend
+    dockerfilePath: ./Dockerfile   # relativo ao rootDir
+    dockerContext: .
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: LLM_PROVIDER
+        value: openai_compat
+      - key: LLM_BASE_URL
+        value: https://api.groq.com/openai/v1
+      - key: LLM_MODEL
+        value: openai/gpt-oss-20b
+      - key: LLM_REASONING_EFFORT
+        value: low
+      - key: LLM_API_KEY
+        sync: false
+      - key: GESTOR_SENHA
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: CORS_ORIGINS
+        value: https://zela-web.onrender.com
+      - key: DATABASE_PATH
+        value: /tmp/zela.db   # plano gratuito não tem disco persistente: dados reiniciam a cada deploy
+      - key: BUSCA_MODO
+        value: bm25           # plano gratuito tem 512 MB de RAM: o assistente usa só a busca lexical (sem embeddings)
+
+  - type: web
+    name: zela-web
+    runtime: docker
+    rootDir: frontend
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    plan: free
+    healthCheckPath: /_stcore/health
+    envVars:
+      - key: API_URL
+        value: https://zela-api.onrender.com

@@ -1,0 +1,77 @@
+{
+  "tiny": {
+    "wer_geral": 0.2944,
+    "wer_por_condicao": {
+      "silencioso": 0.268,
+      "ruido": 0.3864
+    },
+    "wer_por_locutor": {
+      "sintetico-faber": {
+        "wer": 0.3333,
+        "audios": 7
+      },
+      "sintetico-cadu": {
+        "wer": 0.1905,
+        "audios": 7
+      },
+      "sintetico-edresson": {
+        "wer": 0.3559,
+        "audios": 6
+      }
+    },
+    "tempo_medio_s": 0.32,
+    "fator_tempo_real": 0.085,
+    "carga_modelo_s": 3.7,
+    "audios": 20
+  },
+  "small": {
+    "wer_geral": 0.1929,
+    "wer_por_condicao": {
+      "silencioso": 0.2092,
+      "ruido": 0.1364
+    },
+    "wer_por_locutor": {
+      "sintetico-faber": {
+        "wer": 0.2133,
+        "audios": 7
+      },
+      "sintetico-cadu": {
+        "wer": 0.0635,
+        "audios": 7
+      },
+      "sintetico-edresson": {
+        "wer": 0.3051,
+        "audios": 6
+      }
+    },
+    "tempo_medio_s": 2.12,
+    "fator_tempo_real": 0.56,
+    "carga_modelo_s": 12.1,
+    "audios": 20
+  },
+  "small+vocab": {
+    "wer_geral": 0.132,
+    "wer_por_condicao": {
+      "silencioso": 0.1373,
+      "ruido": 0.1136
+    },
+    "wer_por_locutor": {
+      "sintetico-faber": {
+        "wer": 0.16,
+        "audios": 7
+      },
+      "sintetico-cadu": {
+        "wer": 0.0476,
+        "audios": 7
+      },
+      "sintetico-edresson": {
+        "wer": 0.1864,
+        "audios": 6
+      }
+    },
+    "tempo_medio_s": 1.75,
+    "fator_tempo_real": 0.462,
+    "carga_modelo_s": 1.3,
+    "audios": 20
+  }
+}

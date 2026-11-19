@@ -1,0 +1,226 @@
+{
+  "execucao": 3,
+  "inicio": "2026-11-12T17:33:08",
+  "dry_run": false,
+  "falhas": [
+    "[D-planilhas] os_planilha_corrompida.csv ilegível: colunas obrigatórias ausentes: ['data_execucao', 'equipe', 'observacao', 'protocolo', 'status_os']; movido para revisão humana",
+    "[F-visao] foto_corrompida.jpg: imagem inválida (UnidentifiedImageError); enviada para revisão humana"
+  ],
+  "os_aplicadas": 8,
+  "os_rejeitadas": 9,
+  "priorizados": 2,
+  "fotos_com_fissura": 8,
+  "arquivos_ignorados_por_idempotencia": 0,
+  "noticias_coletadas": 35,
+  "noticias_relevantes": 21,
+  "noticias_lista": [
+    {
+      "fonte": "Prefeitura de SP (notícias)",
+      "url": "https://prefeitura.sp.gov.br/w/prefeitura-chega-a-27-bosques-urbanos-e-mais-17-mil-%C3%A1rvores-com-entrega-de-outros-7-nesta-quarta-4-",
+      "titulo": "27 bosques urbanos e mais 17 mil árvores com entrega de outros 7 em diferentes regiões da cidade",
+      "data": null,
+      "relevante": true,
+      "alerta": false
+    },
+    {
+      "fonte": "Prefeitura de SP (notícias)",
+      "url": "https://prefeitura.sp.gov.br/w/prefeitura-investe-r-11-3-bilh%C3%B5es-em-drenagem-desde-2021-mais-que-o-dobro-do-valor-entre-2011-e-2020",
+      "titulo": "Prefeitura investe mais de R$ 11 bilhões em drenagem desde 2021, o dobro do valor nos 18 anos anteriores Imagem de notícia Prefeitura investe mais de R$ 11 bilhões em drenagem desde 2021, o dobro do v",
+      "data": "2026-10-16",
+      "relevante": true,
+      "alerta": false
+    },
+    {
+      "fonte": "Prefeitura de SP (notícias)",
+      "url": "https://prefeitura.sp.gov.br/w/com-piscina-semiol%C3%ADmpica-coberta-e-aquecida-prefeitura-entrega-moderniza%C3%A7%C3%A3o-completa-do-centro-esportivo-vila-carioca",
+      "titulo": "Com piscina semiolímpica coberta e aquecida, Prefeitura entrega modernização completa do Centro Esportivo Vila Carioca Imagem de notícia Com piscina semiolímpica coberta e aquecida, Prefeitura entrega",
+      "data": "2026-09-25",
+      "relevante": true,
+      "alerta": false
+    },
+    {
+      "fonte": "Defesa Civil municipal (notícias)",
+      "url": "https://prefeitura.sp.gov.br/web/seguranca_urbana/w/equipamentos-da-defesa-civil",
+      "titulo": "Equipamentos Defesa Civil Municipal",
+      "data": null,
+      "relevante": true,
+      "alerta": false
+    },
+    {
+      "fonte": "Defesa Civil municipal (notícias)",
+      "url": "https://prefeitura.sp.gov.br/web/defesa_civil/w/noticias/356685",
+      "titulo": "Defesa Civil da Cidade de São Paulo promove 2ª Semana de Prevenção e Redução de Riscos e Desastres Nos dias 30 e 31 de outubro e 1 de novembro, técnicos da Defesa Civil e especialistas discutirão tema",
+      "data": "2023-10-26",
+      "relevante": true,
+      "alerta": false
+    },
+    {
+      "fonte": "Defesa Civil municipal (notícias)",
+      "url": "https://prefeitura.sp.gov.br/web/defesa_civil/w/noticias/336855",
+      "titulo": "Defesa Civil de São Paulo promove primeiro exercício simulado em área de risco na capital A ação teve como objetivo capacitar equipes de resposta e preparar a comunidade para enfrentar de forma adequa",
+      "data": "2022-10-24",
+      "relevante": true,
+      "alerta": false
+    },
+    {
+      "fonte": "Defesa Civil municipal (notícias)",
+      "url": "https://prefeitura.sp.gov.br/web/defesa_civil/w/noticias/329515",
+      "titulo": "Defesa Civil ministra curso sobre desastres ambientais para educadores e moradores do Campo Limpo As aulas práticas e teóricas visaram estimular a participação social no enfrentamento e prevenção de d",
+      "data": "2022-05-25",
+      "relevante": true,
+      "alerta": false
+    },
+    {
+      "fonte": "Defesa Civil municipal (notícias)",
+      "url": "https://prefeitura.sp.gov.br/web/defesa_civil/w/noticias/329295",
+      "titulo": "Plano de Contingência de Proteção e Defesa Civil Municipal é reconhecido como Boas Práticas Os PLANCONs foram instituídos por lei",
+      "data": "2022-05-20",
+      "relevante": true,
+      "alerta": false
+    },
+    {
+      "fonte": "Defesa Civil municipal (notícias)",
+      "url": "https://prefeitura.sp.gov.br/web/defesa_civil/w/noticias/329278",
+      "titulo": "Saiba mais sobre o Plano Municipal de Redução de Riscos, instrumento que centraliza o mapeamento de riscos realizado pela Defesa Civil. O Plano Municipal de Redução de Riscos é um instrumento de plane",
+      "data": "2022-05-20",
+      "relevante": true,
+      "alerta": false
+    },
+    {
+      "fonte": "Defesa Civil municipal (notícias)",
+      "url": "https://prefeitura.sp.gov.br/web/defesa_civil/w/noticias/306213",
+      "titulo": "Defesa Civil realiza entrega de novos mapeamentos de áreas de risco geológico 11 Subprefeituras de São Paulo receberam o estudo",
+      "data": "2020-12-15",
+      "relevante": true,
+      "alerta": false
+    }
+  ],
+  "alertas_oficiais_recentes": [],
+  "chuva_mm": 45.0,
+  "gatilho_alerta": true,
+  "priorizados_protocolos": [
+    "ZL-261112-43EB8C",
+    "ZL-261112-268EA1"
+  ],
+  "fotos": [
+    {
+      "arquivo": "fissura_01135.jpg",
+      "classe": "com_fissura",
+      "probabilidade": 1.0,
+      "esperado": "com_fissura"
+    },
+    {
+      "arquivo": "fissura_02617.jpg",
+      "classe": "com_fissura",
+      "probabilidade": 1.0,
+      "esperado": "com_fissura"
+    },
+    {
+      "arquivo": "fissura_11792_1.jpg",
+      "classe": "com_fissura",
+      "probabilidade": 1.0,
+      "esperado": "com_fissura"
+    },
+    {
+      "arquivo": "fissura_17861_1.jpg",
+      "classe": "com_fissura",
+      "probabilidade": 1.0,
+      "esperado": "com_fissura"
+    },
+    {
+      "arquivo": "fissura_18279_1.jpg",
+      "classe": "com_fissura",
+      "probabilidade": 1.0,
+      "esperado": "com_fissura"
+    },
+    {
+      "arquivo": "fissura_18866_1.jpg",
+      "classe": "com_fissura",
+      "probabilidade": 1.0,
+      "esperado": "com_fissura"
+    },
+    {
+      "arquivo": "fissura_18887_1.jpg",
+      "classe": "com_fissura",
+      "probabilidade": 1.0,
+      "esperado": "com_fissura"
+    },
+    {
+      "arquivo": "fissura_19215_1.jpg",
+      "classe": "com_fissura",
+      "probabilidade": 1.0,
+      "esperado": "com_fissura"
+    },
+    {
+      "arquivo": "sem_fissura_00176.jpg",
+      "classe": "sem_fissura",
+      "probabilidade": 0.004,
+      "esperado": "sem_fissura"
+    },
+    {
+      "arquivo": "sem_fissura_00806.jpg",
+      "classe": "sem_fissura",
+      "probabilidade": 0.0,
+      "esperado": "sem_fissura"
+    },
+    {
+      "arquivo": "sem_fissura_08803.jpg",
+      "classe": "sem_fissura",
+      "probabilidade": 0.0,
+      "esperado": "sem_fissura"
+    },
+    {
+      "arquivo": "sem_fissura_08833.jpg",
+      "classe": "sem_fissura",
+      "probabilidade": 0.0,
+      "esperado": "sem_fissura"
+    },
+    {
+      "arquivo": "sem_fissura_08841.jpg",
+      "classe": "sem_fissura",
+      "probabilidade": 0.0,
+      "esperado": "sem_fissura"
+    },
+    {
+      "arquivo": "sem_fissura_15063.jpg",
+      "classe": "sem_fissura",
+      "probabilidade": 0.0,
+      "esperado": "sem_fissura"
+    },
+    {
+      "arquivo": "sem_fissura_16351.jpg",
+      "classe": "sem_fissura",
+      "probabilidade": 0.0,
+      "esperado": "sem_fissura"
+    },
+    {
+      "arquivo": "sem_fissura_16610.jpg",
+      "classe": "sem_fissura",
+      "probabilidade": 0.0,
+      "esperado": "sem_fissura"
+    }
+  ],
+  "validacao": {
+    "priorizacao": {
+      "casos_avaliados": 3,
+      "acertos": 3,
+      "erros": []
+    },
+    "planilhas": {
+      "linhas_avaliadas": 17,
+      "acertos": 17,
+      "acuracia": 1.0,
+      "erros": []
+    },
+    "fotos": {
+      "avaliadas": 16,
+      "acertos": 16,
+      "acuracia": 1.0,
+      "falsos_negativos": 0,
+      "falsos_positivos": 0,
+      "verdadeiros_positivos": 8
+    }
+  },
+  "fim": "2026-11-12T17:33:09",
+  "email": "salvo em boletim_20261112_173309.eml (sem credenciais SMTP ou modo simulação)"
+}

@@ -1,0 +1,16 @@
+digraph voz {
+  graph [rankdir=LR, fontname="Helvetica", fontsize=11, nodesep=0.3, ranksep=0.35, pad=0.2];
+  node  [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=10, color="#0F5C63", fillcolor="#E8F2F2", margin="0.12,0.06"];
+  edge  [color="#4A5654", fontname="Helvetica", fontsize=8.5, arrowsize=0.6];
+  mic [label="Microfone\n(push-to-talk)\nou arquivo", shape=ellipse, fillcolor="#FFFFFF"];
+  stt [label="STT\nfaster-whisper small\n(local, int8)"];
+  apaga [label="áudio\napagado", shape=note, fillcolor="#F4F1EA", color="#8A6D1F"];
+  llm [label="Assistente Zela (API)\nprompt de sistema · RAG\ncitações · abstenção"];
+  mem [label="Memória\n(últimos 8 turnos,\nsem CPF/e-mail)", shape=cylinder, fillcolor="#FFFFFF"];
+  fala [label="Adaptação\npara fala\n(num2words, siglas)"];
+  tts [label="TTS\nPiper pt_BR faber\n(voz sintética)"];
+  saida [label="Alto-falante +\ntexto na tela +\nlatência por etapa", shape=ellipse, fillcolor="#FFFFFF"];
+  mic -> stt -> llm -> fala -> tts -> saida;
+  stt -> apaga [style=dashed];
+  mem -> llm [dir=both, style=dashed];
+}

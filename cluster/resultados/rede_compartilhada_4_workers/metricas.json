@@ -1,0 +1,44 @@
+{
+  "tempo_total_simulado_s": 2453.8917446971022,
+  "satisfacao_pct": 100.0,
+  "ociosidade_processamento_pct": 26.64713087324135,
+  "ociosidade_comunicacao_pct": 1.2171811271482764,
+  "recursos": [
+    {
+      "recurso": "cluster_zela",
+      "dono": "user1",
+      "processamento": 0.0,
+      "comunicacao": 0.0
+    },
+    {
+      "recurso": "cluster_zela node 4",
+      "dono": "user1",
+      "processamento": 1800.0,
+      "comunicacao": 0.0
+    },
+    {
+      "recurso": "cluster_zela node 3",
+      "dono": "user1",
+      "processamento": 1800.0,
+      "comunicacao": 0.0
+    },
+    {
+      "recurso": "cluster_zela node 2",
+      "dono": "user1",
+      "processamento": 1800.0,
+      "comunicacao": 0.0
+    },
+    {
+      "recurso": "cluster_zela node 1",
+      "dono": "user1",
+      "processamento": 1800.0,
+      "comunicacao": 0.0
+    },
+    {
+      "recurso": "cluster_zela",
+      "dono": "---",
+      "processamento": 0.0,
+      "comunicacao": 2424.0234374999995
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "base": "Concrete Crack Images for Classification (Özgenel, 2019)",
+  "semente": 42,
+  "divisao": {
+    "treino": {
+      "total": 3000,
+      "com_fissura": 1500
+    },
+    "validacao": {
+      "total": 800,
+      "com_fissura": 400
+    },
+    "teste": {
+      "total": 2000,
+      "com_fissura": 1000
+    }
+  },
+  "divisao_metodo": "blocos de 50 arquivos consecutivos; 70/15/15% dos blocos por classe; amostra {'treino': 1500, 'validacao': 400, 'teste': 1000} por classe",
+  "treino": {
+    "historico": [
+      {
+        "fase": "cabeça (backbone congelado)",
+        "epoca": 1,
+        "perda_treino": 0.1127,
+        "f1_validacao": 0.9925,
+        "acuracia_validacao": 0.9925,
+        "segundos": 45.2
+      },
+      {
+        "fase": "ajuste fino completo",
+        "epoca": 1,
+        "perda_treino": 0.043,
+        "f1_validacao": 1.0,
+        "acuracia_validacao": 1.0,
+        "segundos": 190.8
+      },
+      {
+        "fase": "ajuste fino completo",
+        "epoca": 2,
+        "perda_treino": 0.0169,
+        "f1_validacao": 0.9988,
+        "acuracia_validacao": 0.9988,
+        "segundos": 202.3
+      }
+    ],
+    "minutos": 7.3,
+    "resolucao": 160
+  },
+  "validacao": {
+    "limiar_0_5": {
+      "limiar": 0.5,
+      "acuracia": 1.0,
+      "precisao": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matriz_confusao": [
+        [
+          400,
+          0
+        ],
+        [
+          0,
+          400
+        ]
+      ],
+      "n": 800
+    },
+    "limiar_escolhido": {
+      "limiar": 0.15,
+      "acuracia": 1.0,
+      "precisao": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matriz_confusao": [
+        [
+          400,
+          0
+        ],
+        [
+          0,
+          400
+        ]
+      ],
+      "n": 800
+    }
+  },
+  "teste": {
+    "limiar_0_5": {
+      "limiar": 0.5,
+      "acuracia": 0.997,
+      "precisao": 0.995,
+      "recall": 0.999,
+      "f1": 0.997,
+      "matriz_confusao": [
+        [
+          995,
+          5
+        ],
+        [
+          1,
+          999
+        ]
+      ],
+      "n": 2000
+    },
+    "limiar_escolhido": {
+      "limiar": 0.15,
+      "acuracia": 0.9945,
+      "precisao": 0.9901,
+      "recall": 0.999,
+      "f1": 0.9945,
+      "matriz_confusao": [
+        [
+          990,
+          10
+        ],
+        [
+          1,
+          999
+        ]
+      ],
+      "n": 2000
+    },
+    "roc_auc": 1.0
+  },
+  "erros": {
+    "falsos_positivos": [
+      "14397.jpg",
+      "15427.jpg",
+      "03966.jpg",
+      "19240.jpg",
+      "11472.jpg",
+      "06268.jpg",
+      "14392.jpg",
+      "09153.jpg"
+    ],
+    "falsos_negativos": [
+      "18342_1.jpg"
+    ]
+  },
+  "robustez": {
+    "amostra": 600,
+    "resultados": {
+      "original": {
+        "precisao": 0.997,
+        "recall": 1.0,
+        "f1": 0.9985
+      },
+      "sombra lateral": {
+        "precisao": 0.9849,
+        "recall": 1.0,
+        "f1": 0.9924
+      },
+      "pouca luz (40%)": {
+        "precisao": 0.9909,
+        "recall": 0.9969,
+        "f1": 0.9939
+      },
+      "superexposição (180%)": {
+        "precisao": 0.976,
+        "recall": 0.9939,
+        "f1": 0.9848
+      },
+      "desfoque (raio 2)": {
+        "precisao": 0.9909,
+        "recall": 0.9969,
+        "f1": 0.9939
+      },
+      "ruído (σ=25)": {
+        "precisao": 0.997,
+        "recall": 1.0,
+        "f1": 0.9985
+      },
+      "compressão JPEG forte": {
+        "precisao": 0.9731,
+        "recall": 0.9969,
+        "f1": 0.9849
+      }
+    }
+  },
+  "onnx": {
+    "arquivo": "fissura_mobilenetv3s.onnx",
+    "tamanho_mb": 6.09,
+    "diferenca_maxima_vs_pytorch": 0.01314
+  },
+  "desempenho": {
+    "inferencia_media_ms": 1.34,
+    "inferencia_p95_ms": 1.85,
+    "fim_a_fim_media_ms": 2.02,
+    "fps_fim_a_fim": 496.3,
+    "repeticoes": 200,
+    "resolucao_entrada": "160x160",
+    "resolucao_imagem_original": "227x227",
+    "equipamento": "Intel(R) Xeon(R) Processor @ 2.10GHz, 2 threads, sem GPU, ONNX Runtime 1.29.0"
+  },
+  "monitoramento": {
+    "quadros": 25,
+    "blocos_por_quadro": 8,
+    "resolucao_quadro": "908x454",
+    "tempo_medio_por_quadro_ms": 9.0,
+    "quadros_por_segundo": 111.6,
+    "blocos_com_fissura_no_mosaico": 9
+  }
+}

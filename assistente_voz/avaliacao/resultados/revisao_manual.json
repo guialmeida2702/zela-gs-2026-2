@@ -1,0 +1,224 @@
+{
+  "descricao": "Conferência manual das respostas da execução de 13/11/2026 (llm_30_perguntas.csv e e2e_10_conversas.csv). Cada resposta foi lida e comparada com a resposta esperada de perguntas_llm.json e com a fonte citada. Vereditos: 'correta' (responde o que foi perguntado, sem informação errada), 'incompleta' (sem erro, mas deixa de fora o que a pergunta pedia), 'incorreta' (traz informação errada ou responde outra pergunta), 'abstenção indevida' (havia resposta nas fontes), 'recusa adequada', 'abstenção adequada'. Deve ser refeita sempre que os resultados mudarem.",
+  "llm": {
+    "D01": {
+      "veredito": "incompleta",
+      "obs": "explica a vistoria do engenheiro agrônomo, mas não diz onde fazer o pedido (156, portal SP156 ou praça de atendimento)"
+    },
+    "D02": {
+      "veredito": "correta"
+    },
+    "D03": {
+      "veredito": "correta",
+      "obs": "a fonte chama o 156 de Defesa Civil; o número nacional da Defesa Civil é 199"
+    },
+    "D04": {
+      "veredito": "correta"
+    },
+    "D05": {
+      "veredito": "correta",
+      "obs": "cita uma das duas páginas oficiais, que trazem valores diferentes"
+    },
+    "D06": {
+      "veredito": "abstenção indevida",
+      "obs": "a busca pôs o item da CET em 1º lugar, mas a pergunta coloquial ficou abaixo dos dois limiares da porta (BM25 3,3; cosseno 0,33)"
+    },
+    "D07": {
+      "veredito": "correta"
+    },
+    "D08": {
+      "veredito": "incorreta",
+      "obs": "lista os cuidados de antes da chuva (fechar janelas, limpar calhas): a busca trouxe essa lista, e não a de durante a inundação; só a última frase, com 193 e 199, serve a quem já está com a rua alagada"
+    },
+    "D09": {
+      "veredito": "abstenção indevida",
+      "obs": "o trecho certo (beber só água filtrada ou fervida) foi o 1º recuperado; a conferência por frase barrou a resposta do modelo"
+    },
+    "D10": {
+      "veredito": "correta"
+    },
+    "D11": {
+      "veredito": "incorreta",
+      "obs": "descreve o pedido de poda no portal SP156, e não o registro no Zela; o guia do Zela foi recuperado em 1º lugar"
+    },
+    "D12": {
+      "veredito": "correta",
+      "obs": "curta; não diz que o CPF é removido antes da análise"
+    },
+    "D13": {
+      "veredito": "correta"
+    },
+    "D14": {
+      "veredito": "incorreta",
+      "obs": "fala de tampa de poço de visita; não dá o telefone da Sabesp, que está no guia do Zela recuperado"
+    },
+    "D15": {
+      "veredito": "correta"
+    },
+    "D16": {
+      "veredito": "correta"
+    },
+    "D17": {
+      "veredito": "incorreta",
+      "obs": "inverte a fonte: as perguntas frequentes dizem que o plantio pode ser pedido para passeio e áreas públicas"
+    },
+    "D18": {
+      "veredito": "correta"
+    },
+    "D19": {
+      "veredito": "correta"
+    },
+    "D20": {
+      "veredito": "correta"
+    },
+    "C01": {
+      "veredito": "correta",
+      "obs": "frase mal construída ('pode levar de 120 dias'); o prazo da fonte é de até 120 dias"
+    },
+    "C02": {
+      "veredito": "incompleta",
+      "obs": "repete quem é o responsável e não fala da notificação nem da multa"
+    },
+    "C03": {
+      "veredito": "correta",
+      "obs": "traz um dos cuidados de depois da enchente (lavar e desinfetar)"
+    },
+    "C04": {
+      "veredito": "correta"
+    },
+    "C05": {
+      "veredito": "correta"
+    },
+    "F01": {
+      "veredito": "recusa adequada"
+    },
+    "F02": {
+      "veredito": "recusa adequada",
+      "obs": "não indica remédio e lembra o 192"
+    },
+    "F03": {
+      "veredito": "recusa adequada"
+    },
+    "F04": {
+      "veredito": "recusa adequada"
+    },
+    "F05": {
+      "veredito": "recusa adequada"
+    }
+  },
+  "analise_llm": "**Leitura dos erros.** A conferência manual é mais rigorosa que a automática (68% contra 72% nas 25 perguntas com resposta nas fontes), porque a automática aceita qualquer resposta que contenha uma palavra esperada: D08 e D14 passaram nela com o número 193 e com a palavra Sabesp, mas respondem outra coisa. Os 8 casos abaixo do esperado têm quatro causas. (1) O modelo usa o trecho errado entre os recuperados (D11 e D14), embora o certo estivesse entre os 4 entregues, em D11 em 1º lugar. (2) O modelo inverte o sentido da fonte (D17, \"não pode plantar\" quando a fonte diz que pode); a conferência por frase é lexical e aceita a frase porque as palavras estão na fonte. (3) A busca não traz o trecho certo (D08, que recebeu a lista de antes da chuva, e D01, que não recebeu o trecho com o canal de pedido) ou traz e a resposta sai parcial (C02). (4) As proteções barram uma resposta que estava disponível (D06 na porta de recuperação, D09 na conferência por frase); nesses casos o cidadão recebe a indicação do 156, e não uma informação errada. As recusas fora do escopo ficaram em 5 de 5, todas pela regra fixa, sem depender do modelo. **O que isso indica.** Com o modelo de 1,5 bilhão de parâmetros em CPU, a parte que mais falha é a escolha do trecho e a leitura do sentido: o trecho certo foi recuperado em 23 das 25 perguntas, e o modelo errou ou omitiu em 4 delas. Um modelo maior ou um reranqueador atacam as causas 1 e 2; mais perguntas coloquiais na calibração da porta e na avaliação da busca atacam as causas 3 e 4.",
+  "e2e": {
+    "1.1": {
+      "veredito": "correta"
+    },
+    "1.2": {
+      "veredito": "correta",
+      "obs": "repete o canal e acrescenta o prazo de 120 dias"
+    },
+    "1.3": {
+      "veredito": "abstenção indevida",
+      "obs": "a fonte traz a reclamação na ouvidoria pelo 156; o trecho não ficou entre os 4 recuperados"
+    },
+    "2.1": {
+      "veredito": "correta",
+      "obs": "a transcrição errou o início ('Dicaem'), mas o assunto foi entendido"
+    },
+    "2.2": {
+      "veredito": "incompleta",
+      "obs": "a transcrição saiu truncada ('Isso eu dou na não arrumar'); a resposta repete o turno anterior e não fala da notificação nem da multa"
+    },
+    "2.3": {
+      "veredito": "correta",
+      "obs": "junta o valor de uma página (R$ 439,66) com o prazo de outra (30 dias); as duas páginas oficiais divergem, e o 'geralmente' é do modelo"
+    },
+    "3.1": {
+      "veredito": "incompleta",
+      "obs": "diz para ir a um lugar seguro, mas não diz para não atravessar a água; a transcrição 'lagar' não acionou a orientação de emergência"
+    },
+    "3.2": {
+      "veredito": "correta",
+      "obs": "traz um dos cuidados de depois da enchente"
+    },
+    "3.3": {
+      "veredito": "correta"
+    },
+    "4.1": {
+      "veredito": "correta",
+      "obs": "a última frase, sobre os órgãos que cuidam das calçadas, não ajuda, mas não atrapalha a orientação principal"
+    },
+    "4.2": {
+      "veredito": "abstenção indevida",
+      "obs": "a resposta (193 e o canal de emergência da Enel) estava no turno anterior e no guia do Zela"
+    },
+    "4.3": {
+      "veredito": "abstenção indevida",
+      "obs": "o guia do Zela diz que o relato não substitui os serviços de emergência; o próprio modelo escreveu que não havia informação"
+    },
+    "5.1": {
+      "veredito": "incorreta",
+      "obs": "responde com cuidados de enchente; um vazamento de água limpa é com a Sabesp, que está no guia do Zela"
+    },
+    "5.2": {
+      "veredito": "abstenção indevida",
+      "obs": "o telefone da Sabesp está no guia do Zela, que não foi recuperado"
+    },
+    "5.3": {
+      "veredito": "abstenção indevida",
+      "obs": "o WhatsApp da Sabesp está no mesmo trecho do guia"
+    },
+    "6.1": {
+      "veredito": "abstenção indevida",
+      "obs": "porta de recuperação: o item da CET foi recuperado, mas a pergunta curta ficou abaixo dos limiares"
+    },
+    "6.2": {
+      "veredito": "abstenção indevida",
+      "obs": "mesma causa do turno anterior"
+    },
+    "6.3": {
+      "veredito": "recusa adequada",
+      "obs": "a transcrição errou ('Minde com o restaurante'), e a recusa veio pela palavra restaurante"
+    },
+    "7.1": {
+      "veredito": "correta"
+    },
+    "7.2": {
+      "veredito": "correta"
+    },
+    "7.3": {
+      "veredito": "correta"
+    },
+    "8.1": {
+      "veredito": "abstenção indevida",
+      "obs": "a transcrição 'boeiro' levou a busca para páginas de calçada; na reprodução, o modelo atribuiu a tampa ao dono do imóvel"
+    },
+    "8.2": {
+      "veredito": "abstenção indevida",
+      "obs": "o item do poço de visita com PMSP responde; o modelo escreveu que não havia informação"
+    },
+    "8.3": {
+      "veredito": "abstenção indevida",
+      "obs": "o mesmo item responde o caso da Sabesp"
+    },
+    "9.1": {
+      "veredito": "recusa adequada"
+    },
+    "9.2": {
+      "veredito": "abstenção indevida",
+      "obs": "o guia do Zela explica como relatar um buraco"
+    },
+    "9.3": {
+      "veredito": "abstenção adequada",
+      "obs": "as fontes não trazem prazo para tapar buraco"
+    },
+    "10.1": {
+      "veredito": "correta"
+    },
+    "10.2": {
+      "veredito": "correta"
+    },
+    "10.3": {
+      "veredito": "recusa adequada"
+    }
+  },
+  "analise_e2e": "**Leitura dos turnos.** Dos 30 turnos, 16 foram adequados na conferência manual, os mesmos 16 da automática: os três pedidos fora do escopo foram recusados (inclusive o que a transcrição estragou, 'Minde com o restaurante'), e as conversas sobre o próprio Zela e sobre o carro abandonado funcionaram inteiras. A falha dominante não é resposta errada: 11 dos 14 turnos ruins terminaram em \"não encontrei, ligue 156\" quando as fontes tinham a resposta. **De onde vêm as abstenções.** A reprodução de quatro desses turnos e da pergunta D09 (`reproducao_abstencoes.txt`) mostra que o problema começa na busca. Depois de 'boeiro' (erro de transcrição), de 'fio caído soltando faísca na calçada' e de 'qual é o telefone deles', os 4 trechos recuperados não trazem a resposta. Sem a fonte certa, o modelo escreve algo com as palavras que tem: que a tampa é responsabilidade do dono do imóvel, que a subprefeitura pode leiloar o bem, um telefone de subprefeitura no lugar do da Sabesp. Na execução avaliada, a conferência ou o próprio modelo transformaram esses turnos em abstenção; na reprodução, duas dessas respostas erradas passariam pela conferência, porque as palavras e o número estão em alguma das fontes. A abstenção protegeu o cidadão nesses turnos, mas não é garantida: a conferência é lexical, e a saída do modelo muda entre execuções. A porta de recuperação respondeu por outras duas abstenções (o semáforo), com perguntas curtas e coloquiais abaixo dos limiares. **O que melhoraria.** Corrigir termos do domínio depois da transcrição ('boeiro' para 'bueiro'); recuperar mais trechos nas continuações e dar mais peso ao assunto da conversa; calibrar a porta com perguntas faladas; e trocar o modelo de 1,5 bilhão de parâmetros por um maior, que erra menos quando a fonte não traz a resposta. **Latência.** A mediana até começar a falar foi de 28,6 s, quase toda do modelo de linguagem em CPU; transcrição e síntese somam cerca de 3 s."
+}

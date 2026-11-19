@@ -1,0 +1,16 @@
+fastapi==0.162.4
+uvicorn[standard]==0.54.0
+pydantic==2.13.5
+pydantic-settings==2.16.2
+httpx==0.28.1
+openai==3.49.0
+PyJWT==2.15.0
+cachetools==8.0.0
+tzdata==2026.6
+# Módulos de IA integrados (visão computacional e assistente RAG)
+python-multipart==0.0.32
+numpy==2.5.3
+pillow==12.3.0
+onnxruntime==1.29.0
+rank-bm25==0.2.2
+fastembed==0.9.1

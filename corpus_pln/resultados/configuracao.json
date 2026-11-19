@@ -1,0 +1,25 @@
+{
+  "opcoes": {
+    "normalizar_unicode": true,
+    "remover_cabecalho_rodape": true,
+    "remover_ruido_web": true,
+    "juntar_linhas_quebradas": true,
+    "remover_urls": false,
+    "mascarar_dados_pessoais": true,
+    "remover_duplicados": true,
+    "minusculas": false,
+    "min_caracteres": 25,
+    "preservar": []
+  },
+  "configuracao": {
+    "tamanho_trecho": 1200,
+    "derivar_perguntas": true,
+    "turnos": 3,
+    "sistema": "Você é um assistente que orienta cidadãos com base em documentos oficiais. Responda de forma curta e clara, em português. Se a informação não estiver na sua base, diga que não sabe e indique o canal oficial.",
+    "escopo": "zeladoria urbana, segurança em chuvas e uso do Zela",
+    "incluir_recusas": true,
+    "fracao_validacao": 0.1,
+    "semente": 42
+  },
+  "erros": []
+}

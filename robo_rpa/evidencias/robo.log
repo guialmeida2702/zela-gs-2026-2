@@ -1,0 +1,64 @@
+2026-11-12 17:31:57,690 INFO [A-scraping] Prefeitura de SP (notícias): 14 notícias, 3 relevantes
+2026-11-12 17:31:59,029 INFO [A-scraping] Defesa Civil municipal (notícias): 21 notícias, 18 relevantes
+2026-11-12 17:31:59,501 WARNING [B-clima] Open-Meteo falhou (tentativa 1/3): HTTPStatusError
+2026-11-12 17:32:00,563 WARNING [B-clima] Open-Meteo falhou (tentativa 2/3): HTTPStatusError
+2026-11-12 17:32:02,630 WARNING [B-clima] Open-Meteo falhou (tentativa 3/3): HTTPStatusError
+2026-11-12 17:32:02,632 ERROR [B-clima] previsão indisponível (HTTPStatusError); priorização usa só as notícias oficiais
+2026-11-12 17:32:02,648 INFO [C-api] fila lida: 64 solicitações
+2026-11-12 17:32:02,661 ERROR [D-planilhas] os_planilha_corrompida.csv ilegível: colunas obrigatórias ausentes: ['data_execucao', 'equipe', 'observacao', 'protocolo', 'status_os']; movido para revisão humana
+2026-11-12 17:32:02,783 INFO [D-planilhas] os_subprefeitura_lapa.xlsx: 2 válidas, 2 para revisão humana
+2026-11-12 17:32:02,797 INFO [D-planilhas] os_subprefeitura_se.csv: 6 válidas, 7 para revisão humana
+2026-11-12 17:32:02,804 INFO [E-priorizacao] sem alerta ativo; nenhuma prioridade alterada
+2026-11-12 17:32:03,701 ERROR [F-visao] foto_corrompida.jpg: imagem inválida (UnidentifiedImageError); enviada para revisão humana
+2026-11-12 17:32:03,726 INFO [F-visao] 16 fotos analisadas, 8 com possível fissura
+2026-11-12 17:32:03,737 INFO [G-email] salvo em boletim_20261112_173203.eml (sem credenciais SMTP ou modo simulação)
+2026-11-12 17:32:35,094 INFO [A-scraping] Prefeitura de SP (notícias): 14 notícias, 3 relevantes
+2026-11-12 17:32:36,783 INFO [A-scraping] Defesa Civil municipal (notícias): 21 notícias, 18 relevantes
+2026-11-12 17:32:36,793 INFO [B-clima] previsão de TESTE informada pelo operador: 45.0 mm (Open-Meteo não consultado)
+2026-11-12 17:32:36,812 INFO [C-api] fila lida: 64 solicitações
+2026-11-12 17:32:36,826 ERROR [D-planilhas] os_planilha_corrompida.csv ilegível: colunas obrigatórias ausentes: ['data_execucao', 'equipe', 'observacao', 'protocolo', 'status_os']; movido para revisão humana
+2026-11-12 17:32:36,959 INFO [D-planilhas] os_subprefeitura_lapa.xlsx: 2 válidas, 2 para revisão humana
+2026-11-12 17:32:37,038 INFO [D-planilhas] os_subprefeitura_se.csv: 6 válidas, 7 para revisão humana
+2026-11-12 17:32:37,056 INFO [E-priorizacao] alerta ativo (chuva prevista de 45.0 mm em 72h); 0 casos de drenagem priorizados
+2026-11-12 17:32:37,158 ERROR [F-visao] foto_corrompida.jpg: imagem inválida (UnidentifiedImageError); enviada para revisão humana
+2026-11-12 17:32:37,226 INFO [F-visao] 16 fotos analisadas, 8 com possível fissura
+2026-11-12 17:32:37,254 INFO [G-email] salvo em boletim_20261112_173237.eml (sem credenciais SMTP ou modo simulação)
+2026-11-12 17:33:08,896 INFO [A-scraping] Prefeitura de SP (notícias): 14 notícias, 3 relevantes
+2026-11-12 17:33:09,292 INFO [A-scraping] Defesa Civil municipal (notícias): 21 notícias, 18 relevantes
+2026-11-12 17:33:09,294 INFO [B-clima] previsão de TESTE informada pelo operador: 45.0 mm (Open-Meteo não consultado)
+2026-11-12 17:33:09,319 INFO [C-api] fila lida: 67 solicitações
+2026-11-12 17:33:09,335 ERROR [D-planilhas] os_planilha_corrompida.csv ilegível: colunas obrigatórias ausentes: ['data_execucao', 'equipe', 'observacao', 'protocolo', 'status_os']; movido para revisão humana
+2026-11-12 17:33:09,443 INFO [D-planilhas] os_subprefeitura_lapa.xlsx: 2 válidas, 2 para revisão humana
+2026-11-12 17:33:09,515 INFO [D-planilhas] os_subprefeitura_se.csv: 6 válidas, 7 para revisão humana
+2026-11-12 17:33:09,546 INFO [E-priorizacao] alerta ativo (chuva prevista de 45.0 mm em 72h); 2 casos de drenagem priorizados
+2026-11-12 17:33:09,654 ERROR [F-visao] foto_corrompida.jpg: imagem inválida (UnidentifiedImageError); enviada para revisão humana
+2026-11-12 17:33:09,677 INFO [F-visao] 16 fotos analisadas, 8 com possível fissura
+2026-11-12 17:33:09,686 INFO [G-email] salvo em boletim_20261112_173309.eml (sem credenciais SMTP ou modo simulação)
+2026-11-12 17:33:14,961 INFO [A-scraping] Prefeitura de SP (notícias): 14 notícias, 3 relevantes
+2026-11-12 17:33:15,341 INFO [A-scraping] Defesa Civil municipal (notícias): 21 notícias, 18 relevantes
+2026-11-12 17:33:15,342 INFO [B-clima] previsão de TESTE informada pelo operador: 45.0 mm (Open-Meteo não consultado)
+2026-11-12 17:33:15,356 INFO [C-api] fila lida: 67 solicitações
+2026-11-12 17:33:15,363 ERROR [D-planilhas] os_planilha_corrompida.csv ilegível: colunas obrigatórias ausentes: ['data_execucao', 'equipe', 'observacao', 'protocolo', 'status_os']; movido para revisão humana
+2026-11-12 17:33:15,364 INFO [D-planilhas] os_subprefeitura_lapa.xlsx já processado antes; ignorado (idempotência)
+2026-11-12 17:33:15,366 INFO [D-planilhas] os_subprefeitura_se.csv já processado antes; ignorado (idempotência)
+2026-11-12 17:33:15,368 INFO [E-priorizacao] alerta ativo (chuva prevista de 45.0 mm em 72h); 0 casos de drenagem priorizados
+2026-11-12 17:33:15,467 ERROR [F-visao] foto_corrompida.jpg: imagem inválida (UnidentifiedImageError); enviada para revisão humana
+2026-11-12 17:33:15,486 INFO [F-visao] 16 fotos analisadas, 8 com possível fissura
+2026-11-12 17:33:15,494 INFO [G-email] salvo em boletim_20261112_173315.eml (sem credenciais SMTP ou modo simulação)
+2026-11-12 17:33:16,825 INFO [A-scraping] Prefeitura de SP (notícias): 14 notícias, 3 relevantes
+2026-11-12 17:33:18,094 INFO [A-scraping] Defesa Civil municipal (notícias): 21 notícias, 18 relevantes
+2026-11-12 17:33:18,611 WARNING [B-clima] Open-Meteo falhou (tentativa 1/3): HTTPStatusError
+2026-11-12 17:33:19,691 WARNING [B-clima] Open-Meteo falhou (tentativa 2/3): HTTPStatusError
+2026-11-12 17:33:21,753 WARNING [B-clima] Open-Meteo falhou (tentativa 3/3): HTTPStatusError
+2026-11-12 17:33:21,755 ERROR [B-clima] previsão indisponível (HTTPStatusError); priorização usa só as notícias oficiais
+2026-11-12 17:33:21,756 WARNING [C-api] login falhou (tentativa 1/3): ConnectError
+2026-11-12 17:33:22,759 WARNING [C-api] login falhou (tentativa 2/3): ConnectError
+2026-11-12 17:33:24,760 WARNING [C-api] login falhou (tentativa 3/3): ConnectError
+2026-11-12 17:33:24,778 ERROR [C-api] API do Zela indisponível (ConnectError: [Errno 111] Connection refused); atualizações ficam pendentes
+2026-11-12 17:33:24,799 ERROR [D-planilhas] os_planilha_corrompida.csv ilegível: colunas obrigatórias ausentes: ['data_execucao', 'equipe', 'observacao', 'protocolo', 'status_os']; movido para revisão humana
+2026-11-12 17:33:24,818 INFO [D-planilhas] os_subprefeitura_lapa.xlsx já processado antes; ignorado (idempotência)
+2026-11-12 17:33:24,834 INFO [D-planilhas] os_subprefeitura_se.csv já processado antes; ignorado (idempotência)
+2026-11-12 17:33:24,836 INFO [E-priorizacao] sem alerta ativo; nenhuma prioridade alterada
+2026-11-12 17:33:24,941 ERROR [F-visao] foto_corrompida.jpg: imagem inválida (UnidentifiedImageError); enviada para revisão humana
+2026-11-12 17:33:24,991 INFO [F-visao] 16 fotos analisadas, 8 com possível fissura
+2026-11-12 17:33:25,008 INFO [G-email] salvo em boletim_20261112_173324.eml (sem credenciais SMTP ou modo simulação)

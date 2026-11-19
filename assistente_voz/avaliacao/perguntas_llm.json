@@ -1,0 +1,355 @@
+{
+  "descricao": "30 perguntas do tema, cada uma com a resposta esperada: 20 diretas, 5 de continuação (com histórico) e 5 fora do escopo. 'resposta_esperada' é o gabarito para a conferência humana; 'esperado' são as palavras-chave da conferência automática.",
+  "perguntas": [
+    {
+      "id": "D01",
+      "tipo": "direta",
+      "pergunta": "como eu peço pra podar uma árvore na frente de casa",
+      "esperado": [
+        "156"
+      ],
+      "resposta_esperada": "Pelo telefone 156, pelo Portal SP156 ou na praça de atendimento da subprefeitura, informando o endereço exato da árvore."
+    },
+    {
+      "id": "D02",
+      "tipo": "direta",
+      "pergunta": "quanto tempo a subprefeitura leva pra fazer a poda",
+      "esperado": [
+        "120"
+      ],
+      "resposta_esperada": "A subprefeitura tem prazo máximo de 120 dias para atender o pedido de poda ou remoção."
+    },
+    {
+      "id": "D03",
+      "tipo": "direta",
+      "pergunta": "eu mesmo posso cortar a árvore da calçada",
+      "esperado": [
+        "crime",
+        "autoriza",
+        "nao pode",
+        "proibid"
+      ],
+      "resposta_esperada": "Não. Podar ou cortar árvore em área pública sem autorização é crime ambiental; o pedido deve ser feito à Prefeitura."
+    },
+    {
+      "id": "D04",
+      "tipo": "direta",
+      "pergunta": "de quem é a obrigação de arrumar a calçada",
+      "esperado": [
+        "propriet",
+        "possuidor",
+        "responsavel pelo imovel"
+      ],
+      "resposta_esperada": "Do proprietário ou responsável pelo imóvel em frente à calçada. À Prefeitura cabe o meio-fio."
+    },
+    {
+      "id": "D05",
+      "tipo": "direta",
+      "pergunta": "qual a multa se a calçada estiver ruim",
+      "esperado": [
+        "439",
+        "635"
+      ],
+      "resposta_esperada": "Multa por metro linear de calçada em má conservação. As duas páginas oficiais da base trazem valores diferentes (R$ 439,66 na página da Secretaria e R$ 635,00 na da Subprefeitura Ipiranga); vale qualquer um dos dois, desde que venha da fonte citada."
+    },
+    {
+      "id": "D06",
+      "tipo": "direta",
+      "pergunta": "o semáforo da esquina tá quebrado quem eu chamo",
+      "esperado": [
+        "cet"
+      ],
+      "resposta_esperada": "A CET, que cuida de semáforo, placas e faixas. O pedido é feito pelo SP156."
+    },
+    {
+      "id": "D07",
+      "tipo": "direta",
+      "pergunta": "a tampa do bueiro afundou e tá escrito sabesp nela o que eu faço",
+      "esperado": [
+        "sabesp"
+      ],
+      "resposta_esperada": "Se a tampa traz a inscrição Sabesp, esgoto, DAEE ou saneamento, o reparo é da empresa responsável: procurar a Sabesp."
+    },
+    {
+      "id": "D08",
+      "tipo": "direta",
+      "pergunta": "o que eu faço se a minha rua alagar",
+      "esperado": [
+        "atravesse",
+        "contato",
+        "arrastad",
+        "193",
+        "199",
+        "afaste"
+      ],
+      "resposta_esperada": "Ficar em local seguro e não atravessar ruas alagadas, porque a água pode arrastar a pessoa; cuidado com buracos e bueiros encobertos. Em risco, ligar 193 ou 199."
+    },
+    {
+      "id": "D09",
+      "tipo": "direta",
+      "pergunta": "depois da enchente posso beber a água da torneira",
+      "esperado": [
+        "fervida",
+        "filtrada",
+        "ferv"
+      ],
+      "resposta_esperada": "Depois da inundação, beber apenas água filtrada ou fervida."
+    },
+    {
+      "id": "D10",
+      "tipo": "direta",
+      "pergunta": "tem um galho encostado no fio soltando faísca",
+      "esperado": [
+        "enel",
+        "nao se aproxime",
+        "193",
+        "afaste"
+      ],
+      "resposta_esperada": "Não se aproximar e acionar imediatamente a Enel pelos canais de emergência (em risco, 193)."
+    },
+    {
+      "id": "D11",
+      "tipo": "direta",
+      "pergunta": "como eu registro um problema no zela",
+      "esperado": [
+        "cep",
+        "protocolo",
+        "confirm"
+      ],
+      "resposta_esperada": "Na aba Relatar problema: descrever o problema, informar o CEP, conferir a sugestão da IA e confirmar. Depois da confirmação sai o protocolo."
+    },
+    {
+      "id": "D12",
+      "tipo": "direta",
+      "pergunta": "o zela guarda o meu cpf",
+      "esperado": [
+        "remove",
+        "remov"
+      ],
+      "resposta_esperada": "Não. O Zela remove CPF, telefone, e-mail, placas e nomes do texto antes de enviar à IA e antes de guardar."
+    },
+    {
+      "id": "D13",
+      "tipo": "direta",
+      "pergunta": "o prazo que aparece no zela é garantido",
+      "esperado": [
+        "referencia",
+        "nao sao prazos oficiais",
+        "nao promete"
+      ],
+      "resposta_esperada": "Não. Os prazos mostrados pelo Zela são referências, não prazos oficiais."
+    },
+    {
+      "id": "D14",
+      "tipo": "direta",
+      "pergunta": "tem água limpa vazando no meio da rua pra quem eu ligo",
+      "esperado": [
+        "sabesp",
+        "0800"
+      ],
+      "resposta_esperada": "Para a Sabesp, que atende vazamentos de água e esgoto: 0800 055 0195 ou WhatsApp."
+    },
+    {
+      "id": "D15",
+      "tipo": "direta",
+      "pergunta": "como eu sei quando passa o cata bagulho",
+      "esperado": [
+        "locatsp",
+        "programacao"
+      ],
+      "resposta_esperada": "A programação do Cata-Bagulho é consultada na página do LocatSP."
+    },
+    {
+      "id": "D16",
+      "tipo": "direta",
+      "pergunta": "tem um carro abandonado na minha rua faz semanas o que acontece",
+      "esperado": [
+        "notifica",
+        "cinco dias",
+        "5 dias"
+      ],
+      "resposta_esperada": "O veículo recebe uma notificação; após cinco dias seguidos sem providência, fica caracterizado o abandono e ele pode ser removido."
+    },
+    {
+      "id": "D17",
+      "tipo": "direta",
+      "pergunta": "posso pedir pra plantar uma árvore na calçada",
+      "esperado": [
+        "passeio",
+        "publica",
+        "tecnico",
+        "sim"
+      ],
+      "resposta_esperada": "Sim, mas só para passeio e áreas públicas. O pedido é analisado por um técnico e, se aprovado, a subprefeitura planta."
+    },
+    {
+      "id": "D18",
+      "tipo": "direta",
+      "pergunta": "como eu peço o rebaixamento da guia da garagem",
+      "esperado": [
+        "praca de atendimento",
+        "iptu",
+        "requerimento"
+      ],
+      "resposta_esperada": "Na Praça de Atendimento da subprefeitura, com cópia de RG, CPF e capa do IPTU, preenchendo o requerimento."
+    },
+    {
+      "id": "D19",
+      "tipo": "direta",
+      "pergunta": "quanto da calçada tem que ficar livre pro pedestre",
+      "esperado": [
+        "50",
+        "metade",
+        "cinquenta"
+      ],
+      "resposta_esperada": "A faixa de circulação de pedestres deve ter no mínimo 50% da largura da calçada."
+    },
+    {
+      "id": "D20",
+      "tipo": "direta",
+      "pergunta": "o que quer dizer quando meu relato está encaminhado",
+      "esperado": [
+        "orgao responsavel",
+        "enviado"
+      ],
+      "resposta_esperada": "Encaminhada significa que o caso foi enviado ao órgão responsável."
+    },
+    {
+      "id": "C01",
+      "tipo": "continuacao",
+      "historico": [
+        {
+          "papel": "cidadao",
+          "texto": "como eu peço a poda de uma árvore na calçada"
+        },
+        {
+          "papel": "assistente",
+          "texto": "Você pode pedir a vistoria pelo telefone 156, pelo portal SP156 ou na Praça de Atendimento da Subprefeitura."
+        }
+      ],
+      "pergunta": "e quanto tempo demora",
+      "esperado": [
+        "120"
+      ],
+      "resposta_esperada": "(Depois de perguntar sobre a poda.) Até 120 dias para a subprefeitura atender."
+    },
+    {
+      "id": "C02",
+      "tipo": "continuacao",
+      "historico": [
+        {
+          "papel": "cidadao",
+          "texto": "quem conserta a calçada da frente de casa"
+        },
+        {
+          "papel": "assistente",
+          "texto": "A manutenção da calçada é responsabilidade do proprietário ou possuidor do imóvel."
+        }
+      ],
+      "pergunta": "e se o dono não arrumar",
+      "esperado": [
+        "notific",
+        "multa"
+      ],
+      "resposta_esperada": "(Depois de perguntar sobre a calçada.) O responsável é notificado e, se não regularizar no prazo, recebe multa."
+    },
+    {
+      "id": "C03",
+      "tipo": "continuacao",
+      "historico": [
+        {
+          "papel": "cidadao",
+          "texto": "o que fazer durante um alagamento"
+        },
+        {
+          "papel": "assistente",
+          "texto": "Não atravesse áreas alagadas, evite contato com a água e, em risco, ligue 193 ou 199."
+        }
+      ],
+      "pergunta": "e depois que a água baixar",
+      "esperado": [
+        "fervida",
+        "filtrada",
+        "aliment",
+        "desinfet",
+        "lave"
+      ],
+      "resposta_esperada": "(Depois de perguntar sobre alagamento.) Beber só água filtrada ou fervida, não usar alimentos que tiveram contato com a água da inundação e lavar e desinfetar os objetos atingidos."
+    },
+    {
+      "id": "C04",
+      "tipo": "continuacao",
+      "historico": [
+        {
+          "papel": "cidadao",
+          "texto": "a tampa do poço de visita afundou na rua"
+        },
+        {
+          "papel": "assistente",
+          "texto": "Depende da inscrição na tampa. Se estiver escrito PMSP ou águas pluviais, peça o nivelamento pelo 156."
+        }
+      ],
+      "pergunta": "e se tiver escrito sabesp",
+      "esperado": [
+        "sabesp"
+      ],
+      "resposta_esperada": "(Depois de perguntar sobre a tampa afundada.) Nesse caso o reparo é da Sabesp, e é ela que deve ser procurada."
+    },
+    {
+      "id": "C05",
+      "tipo": "continuacao",
+      "historico": [
+        {
+          "papel": "cidadao",
+          "texto": "posso podar sozinho a árvore da calçada"
+        },
+        {
+          "papel": "assistente",
+          "texto": "Não. A poda sem autorização da Prefeitura pode ser considerada crime ambiental."
+        }
+      ],
+      "pergunta": "e se o galho estiver encostando nos fios",
+      "esperado": [
+        "enel",
+        "distribuidora",
+        "energia"
+      ],
+      "resposta_esperada": "(Depois de perguntar sobre a árvore.) Não se aproximar e acionar a Enel, a distribuidora de energia."
+    },
+    {
+      "id": "F01",
+      "tipo": "fora_do_escopo",
+      "pergunta": "me indica uma pizzaria boa na mooca",
+      "esperado": [],
+      "resposta_esperada": "Recusa: o assistente diz que o assunto está fora do que ele orienta e lembra os temas que atende."
+    },
+    {
+      "id": "F02",
+      "tipo": "fora_do_escopo",
+      "pergunta": "qual remédio é bom pra gripe",
+      "esperado": [],
+      "resposta_esperada": "Recusa com orientação: não indica remédio e recomenda procurar um profissional de saúde (192 em emergência)."
+    },
+    {
+      "id": "F03",
+      "tipo": "fora_do_escopo",
+      "pergunta": "quem vai ganhar o jogo do corinthians no domingo",
+      "esperado": [],
+      "resposta_esperada": "Recusa: o assunto está fora do escopo."
+    },
+    {
+      "id": "F04",
+      "tipo": "fora_do_escopo",
+      "pergunta": "me ajuda a declarar meu imposto de renda",
+      "esperado": [],
+      "resposta_esperada": "Recusa com orientação: não trata de imposto e recomenda procurar um profissional da área."
+    },
+    {
+      "id": "F05",
+      "tipo": "fora_do_escopo",
+      "pergunta": "conta uma piada",
+      "esperado": [],
+      "resposta_esperada": "Recusa: o assistente não conta piadas e lembra os temas que atende."
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "texto_puro": {
+    "exemplos": 33,
+    "treino": 28,
+    "validacao": 5,
+    "caracteres": 20359,
+    "media_de_caracteres": 617,
+    "tokens_estimados": 5090,
+    "por_origem": {
+      "texto_limpo": 33
+    },
+    "por_fonte": {
+      "calcadas-fiscalizacao.md": 2,
+      "cartilha_chuvas_sintetica.pdf": 3,
+      "dc-chuvas-excessivas.md": 4,
+      "faq-subprefeitura.md": 5,
+      "pagina_iluminacao_sintetica.html": 3,
+      "poda-butanta.md": 3,
+      "procedimento_poda_sintetico.docx": 4,
+      "relatos_sinteticos.jsonl": 1,
+      "zela-guia-do-servico.md": 8
+    }
+  },
+  "perguntas_respostas": {
+    "exemplos": 38,
+    "treino": 31,
+    "validacao": 7,
+    "caracteres": 15864,
+    "media_de_caracteres": 417,
+    "tokens_estimados": 3966,
+    "por_origem": {
+      "derivada_do_titulo": 11,
+      "estruturada": 6,
+      "extraida": 15,
+      "titulo_interrogativo": 6
+    },
+    "por_fonte": {
+      "calcadas-fiscalizacao.md": 1,
+      "cartilha_chuvas_sintetica.pdf": 3,
+      "dc-chuvas-excessivas.md": 1,
+      "faq-subprefeitura.md": 7,
+      "pagina_iluminacao_sintetica.html": 2,
+      "perguntas_sobre_o_zela.csv": 6,
+      "poda-butanta.md": 6,
+      "procedimento_poda_sintetico.docx": 4,
+      "zela-guia-do-servico.md": 8
+    }
+  },
+  "conversacional": {
+    "exemplos": 21,
+    "treino": 19,
+    "validacao": 2,
+    "caracteres": 16676,
+    "media_de_caracteres": 794,
+    "tokens_estimados": 4169,
+    "por_origem": {
+      "pares_da_fonte": 16,
+      "recusa_modelo": 5
+    },
+    "por_fonte": {
+      "(modelo de recusa)": 5,
+      "calcadas-fiscalizacao.md": 1,
+      "cartilha_chuvas_sintetica.pdf": 1,
+      "dc-chuvas-excessivas.md": 1,
+      "faq-subprefeitura.md": 3,
+      "pagina_iluminacao_sintetica.html": 1,
+      "perguntas_sobre_o_zela.csv": 2,
+      "poda-butanta.md": 2,
+      "procedimento_poda_sintetico.docx": 2,
+      "zela-guia-do-servico.md": 3
+    },
+    "media_de_turnos": 2.05
+  }
+}

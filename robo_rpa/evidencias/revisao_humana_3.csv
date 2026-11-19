@@ -1,0 +1,10 @@
+﻿arquivo,linha,protocolo,status_os,data_execucao,equipe,motivo_rejeicao
+os_subprefeitura_lapa.xlsx,4,,executada,2026-11-11,Equipe Lapa 2,protocolo em formato inválido
+os_subprefeitura_lapa.xlsx,5,ZL-261112-AD2E31,executada,2026-11-11,Equipe Lapa 1,linha duplicada para o mesmo protocolo
+os_subprefeitura_se.csv,8,ZL-123,executada,2026-11-11,Equipe 9,protocolo em formato inválido
+os_subprefeitura_se.csv,9,ZL-991231-ABCDEF,executada,2026-11-11,Equipe 9,protocolo não encontrado no Zela
+os_subprefeitura_se.csv,10,ZL-261112-954F63,terminada?,2026-11-11,Equipe 4,status desconhecido: 'terminada?'
+os_subprefeitura_se.csv,11,ZL-261112-689ED8,executada,,Equipe 4,data de execução ausente ou inválida
+os_subprefeitura_se.csv,12,ZL-261112-C71487,executada,2026-11-17,Equipe 4,data de execução no futuro
+os_subprefeitura_se.csv,13,ZL-261112-785879,executada,2026-11-11,Equipe Tapa-Buraco 3,linha duplicada para o mesmo protocolo
+os_subprefeitura_se.csv,14,ZL-261112-7F382D,executada,2026-11-11,Equipe 5,observação contém dado pessoal (não será enviada)

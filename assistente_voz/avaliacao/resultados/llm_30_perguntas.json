@@ -1,0 +1,10 @@
+{
+  "perguntas": 30,
+  "pct_corretas_diretas": 70.0,
+  "pct_corretas_continuacao": 80.0,
+  "pct_corretas_total": 72.0,
+  "pct_recusas_adequadas": 100.0,
+  "abstencoes_indevidas": 2,
+  "latencia_media_s": 21.5,
+  "modelo": "qwen2.5-1.5b-instruct"
+}

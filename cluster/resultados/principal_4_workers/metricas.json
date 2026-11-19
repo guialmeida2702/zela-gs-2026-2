@@ -1,0 +1,86 @@
+{
+  "tempo_total_simulado_s": 1801.1853829821223,
+  "satisfacao_pct": 100.0,
+  "ociosidade_processamento_pct": 0.0658112703623943,
+  "ociosidade_comunicacao_pct": 99.97001811684811,
+  "recursos": [
+    {
+      "recurso": "worker3",
+      "dono": "user1",
+      "processamento": 1800.0,
+      "comunicacao": 0.0
+    },
+    {
+      "recurso": "worker4",
+      "dono": "user1",
+      "processamento": 1800.0,
+      "comunicacao": 0.0
+    },
+    {
+      "recurso": "worker1",
+      "dono": "user1",
+      "processamento": 1800.0,
+      "comunicacao": 0.0
+    },
+    {
+      "recurso": "worker2",
+      "dono": "user1",
+      "processamento": 1800.0,
+      "comunicacao": 0.0
+    },
+    {
+      "recurso": "mestre",
+      "dono": "user1",
+      "processamento": 0.0,
+      "comunicacao": 0.0
+    },
+    {
+      "recurso": "enlace_ida_1",
+      "dono": "---",
+      "processamento": 0.0,
+      "comunicacao": 1.0200000000000007
+    },
+    {
+      "recurso": "enlace_volta_4",
+      "dono": "---",
+      "processamento": 0.0,
+      "comunicacao": 0.060058593749999944
+    },
+    {
+      "recurso": "enlace_volta_2",
+      "dono": "---",
+      "processamento": 0.0,
+      "comunicacao": 0.060058593749999944
+    },
+    {
+      "recurso": "enlace_ida_3",
+      "dono": "---",
+      "processamento": 0.0,
+      "comunicacao": 1.0200000000000007
+    },
+    {
+      "recurso": "enlace_ida_2",
+      "dono": "---",
+      "processamento": 0.0,
+      "comunicacao": 1.0200000000000007
+    },
+    {
+      "recurso": "enlace_volta_3",
+      "dono": "---",
+      "processamento": 0.0,
+      "comunicacao": 0.060058593749999944
+    },
+    {
+      "recurso": "enlace_volta_1",
+      "dono": "---",
+      "processamento": 0.0,
+      "comunicacao": 0.060058593749999944
+    },
+    {
+      "recurso": "enlace_ida_4",
+      "dono": "---",
+      "processamento": 0.0,
+      "comunicacao": 1.0200000000000007
+    }
+  ]
+}

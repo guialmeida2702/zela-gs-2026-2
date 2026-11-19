@@ -1,0 +1,16 @@
+tentativa,som_produzido,classe_real,classe_prevista,confianca_na_tela,observacao
+1,toque da campainha,campainha,campainha,1.00,
+2,toque da campainha,campainha,campainha,1.00,
+3,toque da campainha,campainha,campainha,1.00,
+4,toque da campainha,campainha,campainha,1.00,
+5,toque da campainha,campainha,campainha,1.00,
+6,batida na porta,batida_porta,batida_porta,1.00,
+7,batida na porta,batida_porta,batida_porta,1.00,
+8,batida na porta,batida_porta,batida_porta,1.00,
+9,batida na porta,batida_porta,batida_porta,1.00,
+10,batida na porta,batida_porta,batida_porta,1.00,
+11,"som da casa, com reforma no vizinho ao fundo",ambiente,oscilou,"ambiente < 0.10","a tela alternou entre as três classes; campainha e batida apareceram"
+12,"som da casa, com reforma no vizinho ao fundo",ambiente,oscilou,"ambiente < 0.10","a tela alternou entre as três classes; campainha e batida apareceram"
+13,"som da casa, com reforma no vizinho ao fundo",ambiente,oscilou,"ambiente < 0.10","a tela alternou entre as três classes; campainha e batida apareceram"
+14,"som da casa, com reforma no vizinho ao fundo",ambiente,oscilou,"ambiente < 0.10","a tela alternou entre as três classes; campainha e batida apareceram"
+15,"som da casa, com reforma no vizinho ao fundo",ambiente,oscilou,"ambiente < 0.10","a tela alternou entre as três classes; campainha e batida apareceram"

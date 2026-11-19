@@ -1,0 +1,7 @@
+A: trecho com a resposta entre os 4 recuperados em 22 de 24 turnos de continuação | faltam: M3, V5.2
+B: trecho com a resposta entre os 4 recuperados em 21 de 24 turnos de continuação | faltam: V2.3, V4.2, V9.2
+C: trecho com a resposta entre os 4 recuperados em 20 de 24 turnos de continuação | faltam: M3, V2.3, V4.2, V9.2
+D: trecho com a resposta entre os 4 recuperados em 21 de 24 turnos de continuação | faltam: V2.3, V4.2, V9.2
+E (adotada): trecho com a resposta entre os 4 recuperados em 23 de 24 turnos de continuação | faltam: V5.2
+
+V5.2 = "qual é o telefone deles" depois de "tem água limpa vazando no meio da rua": o trecho da Sabesp fica fora dos 4 em todas as variantes.

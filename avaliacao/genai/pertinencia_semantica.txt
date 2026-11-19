@@ -1,0 +1,16 @@
+== pares certos (pergunta x trecho que contém a resposta)
+A1 0.637
+A2 0.345
+A3 0.569
+A4 0.776
+A5 0.492
+A6 0.401
+A7 0.636
+A8 0.664
+A9 0.614
+A10 0.529
+A11 0.452
+== pares errados (trecho do poço de visita citado na avaliação)
+A6 semáforo 0.418
+U4 buraco 0.498
+menor cosseno entre os pares certos: 0.345

@@ -1,0 +1,41 @@
+{
+  "conversas": 10,
+  "turnos": 30,
+  "pct_turnos_adequados": 53.3,
+  "latencia_s": {
+    "stt_s": {
+      "media": 1.84,
+      "mediana": 1.75,
+      "p90": 2.14,
+      "max": 2.44
+    },
+    "llm_s": {
+      "media": 22.92,
+      "mediana": 25.42,
+      "p90": 34.53,
+      "max": 41.58
+    },
+    "adaptacao_s": {
+      "media": 0.0,
+      "mediana": 0.0,
+      "p90": 0.0,
+      "max": 0.0
+    },
+    "tts_s": {
+      "media": 1.26,
+      "mediana": 1.36,
+      "p90": 1.62,
+      "max": 1.91
+    },
+    "ate_inicio_da_fala_s": {
+      "media": 26.02,
+      "mediana": 28.59,
+      "p90": 38.04,
+      "max": 44.09
+    }
+  },
+  "modelos": {
+    "stt": "faster-whisper-small",
+    "tts": "piper-pt_BR-faber-medium"
+  }
+}

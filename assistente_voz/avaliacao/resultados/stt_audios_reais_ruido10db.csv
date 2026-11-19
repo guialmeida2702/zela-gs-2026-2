@@ -1,0 +1,41 @@
+opcao;arquivo;locutor;condicao;referencia;transcricao;wer;segundos
+small;S01_voz1.wav;voz1;ruido_10db;Tem um buraco enorme na frente do ponto de ônibus da minha rua.;tem um buraco enorme na frente do ponto de ônibus da minha rua.;0.0;2.09
+small;S02_voz1.wav;voz1;ruido_10db;O poste da praça está apagado faz uma semana.;O poste da praça está apagado faz uma semana.;0.0;1.68
+small;S03_voz1.wav;voz1;ruido_10db;Como eu peço a poda de uma árvore na calçada?;como eu peço a poda de uma árvore na calçada.;0.0;1.78
+small;S04_voz1.wav;voz1;ruido_10db;A tampa do bueiro afundou e está escrito Sabesp nela.;A tampa do boeiro a Fondô está escrito Sabesp nela.;0.3;1.87
+small;S05_voz1.wav;voz1;ruido_10db;Quanto tempo a subprefeitura leva para fazer a poda?;Quanto tempo a subprefeitura leva para fazer a foda?;0.111;1.69
+small;S06_voz2.wav;voz2;ruido_10db;Tem água limpa vazando no meio do asfalto há dois dias.;Tem água limpa, mas ano no meio de as falhas, há dois dias.;0.455;2.01
+small;S07_voz2.wav;voz2;ruido_10db;Jogaram entulho e um sofá velho na esquina de casa.;jogar o entúlio e um sofá velho na esquina de casa.;0.3;1.76
+small;S08_voz2.wav;voz2;ruido_10db;O semáforo do cruzamento está piscando amarelo desde ontem.;Esse é mátaro do cruzamento, está pescando amarelo desde ontem.;0.444;1.9
+small;S09_voz2.wav;voz2;ruido_10db;Qual é a multa para quem não conserta a calçada?;Qual é a multa para quem não conserta a calçada?;0.0;1.84
+small;S10_voz2.wav;voz2;ruido_10db;Caiu um fio de energia na calçada e está soltando faísca.;Caia um fio de energia na calçada e está soltando o faísca.;0.182;1.98
+small;S11_voz3.wav;voz3;ruido_10db;Posso pedir para plantar uma árvore na frente da escola?;Posso pedir para plantar uma árvore na frente da escola?;0.0;1.76
+small;S12_voz3.wav;voz3;ruido_10db;O Zela guarda o meu telefone ou o meu CPF?;O Zela guarda o meu telefone ou o meu CPL?;0.1;1.82
+small;S13_voz3.wav;voz3;ruido_10db;O que eu faço se a minha rua alagar de novo?;O que eu faço se minha rua lagar de novo?;0.182;1.72
+small;S14_voz3.wav;voz3;ruido_10db;Tem um carro abandonado na rua faz três semanas.;Tem um carro abandonado na rua faz três semanas.;0.0;1.74
+small;S15_voz3.wav;voz3;ruido_10db;A calçada em frente ao posto de saúde está toda quebrada.;A calçada em frente ao posto de saúde está toda quebrada.;0.0;1.79
+small;S16_voz1.wav;voz1;ruido_10db;O bueiro da esquina está entupido de folhas e terra.;O bueiro da esquina está estupido de folhas e terra.;0.1;1.89
+small;S17_voz1.wav;voz1;ruido_10db;Depois da enchente posso beber a água da torneira?;depois da enchente. Eu posso liberar água da torneira?;0.333;1.77
+small;S18_voz2.wav;voz2;ruido_10db;Quem é responsável por consertar o semáforo?;Quem é o responsável por consertar o semáforo?;0.143;1.72
+small;S19_voz2.wav;voz2;ruido_10db;Uma árvore grande caiu em cima do muro do vizinho.;uma árvore grande caiu em cima do muro do vizinho.;0.0;1.79
+small;S20_voz3.wav;voz3;ruido_10db;E se o galho estiver encostando nos fios?;E se o Galis estiver impostando nos fios?;0.25;1.74
+small+vocab;S01_voz1.wav;voz1;ruido_10db;Tem um buraco enorme na frente do ponto de ônibus da minha rua.;Tem um buraco enorme na frente do ponto de ônibus da minha rua.;0.0;2.08
+small+vocab;S02_voz1.wav;voz1;ruido_10db;O poste da praça está apagado faz uma semana.;O poste da praça está apagado faz uma semana.;0.0;1.82
+small+vocab;S03_voz1.wav;voz1;ruido_10db;Como eu peço a poda de uma árvore na calçada?;Como eu peço a poda de uma árvore na calçada.;0.0;1.86
+small+vocab;S04_voz1.wav;voz1;ruido_10db;A tampa do bueiro afundou e está escrito Sabesp nela.;A tampa do bueiro afundou e está escrito Sabesp nela.;0.0;1.86
+small+vocab;S05_voz1.wav;voz1;ruido_10db;Quanto tempo a subprefeitura leva para fazer a poda?;Quanto tempo a subprefeitura leva para fazer a poda?;0.0;1.82
+small+vocab;S06_voz2.wav;voz2;ruido_10db;Tem água limpa vazando no meio do asfalto há dois dias.;Tem água limpa, nas anos no meio das falhas, há dois dias.;0.364;1.8
+small+vocab;S07_voz2.wav;voz2;ruido_10db;Jogaram entulho e um sofá velho na esquina de casa.;Jogar o entulho e um sofá velho na esquina de casa.;0.2;1.85
+small+vocab;S08_voz2.wav;voz2;ruido_10db;O semáforo do cruzamento está piscando amarelo desde ontem.;Esse é o máturo do cruzamento que está pescando amarelo desde ontem.;0.556;1.88
+small+vocab;S09_voz2.wav;voz2;ruido_10db;Qual é a multa para quem não conserta a calçada?;Qual é a multa para quem não conserta calçada?;0.1;1.77
+small+vocab;S10_voz2.wav;voz2;ruido_10db;Caiu um fio de energia na calçada e está soltando faísca.;Caí um fio de energia na calçada e está soltando faísca.;0.091;1.89
+small+vocab;S11_voz3.wav;voz3;ruido_10db;Posso pedir para plantar uma árvore na frente da escola?;Posso pedir para plantar uma árvore na frente da escola?;0.0;1.9
+small+vocab;S12_voz3.wav;voz3;ruido_10db;O Zela guarda o meu telefone ou o meu CPF?;O Zela guarda o meu telefone ou o meu CPF?;0.0;1.83
+small+vocab;S13_voz3.wav;voz3;ruido_10db;O que eu faço se a minha rua alagar de novo?;O que eu faço se minha rua lagar de novo?;0.182;1.84
+small+vocab;S14_voz3.wav;voz3;ruido_10db;Tem um carro abandonado na rua faz três semanas.;Tem um carro abandonado na rua faz três semanas.;0.0;1.89
+small+vocab;S15_voz3.wav;voz3;ruido_10db;A calçada em frente ao posto de saúde está toda quebrada.;A calçada em frente ao posto de saúde está toda quebrada.;0.0;1.91
+small+vocab;S16_voz1.wav;voz1;ruido_10db;O bueiro da esquina está entupido de folhas e terra.;O bueiro da esquina está estupido de folhas e terra.;0.1;1.92
+small+vocab;S17_voz1.wav;voz1;ruido_10db;Depois da enchente posso beber a água da torneira?;Depois da enchente, eu posso beber água da torneira?;0.222;1.82
+small+vocab;S18_voz2.wav;voz2;ruido_10db;Quem é responsável por consertar o semáforo?;Quem é o responsável por consertar o semáforo?;0.143;1.78
+small+vocab;S19_voz2.wav;voz2;ruido_10db;Uma árvore grande caiu em cima do muro do vizinho.;Uma árvore grande caiu em cima do muro do vizinho.;0.0;1.85
+small+vocab;S20_voz3.wav;voz3;ruido_10db;E se o galho estiver encostando nos fios?;E se o gale estiver impostando nos fios?;0.25;1.81

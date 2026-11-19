@@ -1,0 +1,14 @@
+protocolo;status_os;data_execucao;equipe;observacao
+ZL-261112-785879;executada;11/11/2026;Equipe Tapa-Buraco 3;Reparo concluído
+ZL-261112-8E804C;programada;12/11/2026;Equipe Poda 1;Agendada vistoria do agrônomo
+ZL-261112-36EFF8;Concluída;10/11/2026;Equipe Drenagem 2;Limpeza de bueiro feita
+ZL-261112-667709;em vistoria;11/11/2026;Equipe Calçadas;Técnico no local
+ZL-261112-08869B;cancelada;09/11/2026;Equipe Iluminação;Lâmpada já trocada pela concessionária
+ZL-261112-E2199B;executada;12/11/2026;Equipe Tapa-Buraco 1;Ok
+ZL-123;executada;11/11/2026;Equipe 9;Protocolo digitado errado
+ZL-991231-ABCDEF;executada;11/11/2026;Equipe 9;Protocolo inexistente
+ZL-261112-954F63;terminada?;11/11/2026;Equipe 4;Status fora do padrão
+ZL-261112-689ED8;executada;;Equipe 4;Sem data
+ZL-261112-C71487;executada;17/11/2026;Equipe 4;Data no futuro
+ZL-261112-785879;executada;11/11/2026;Equipe Tapa-Buraco 3;Linha repetida
+ZL-261112-7F382D;executada;11/11/2026;Equipe 5;Morador pediu retorno no (11) 98888-7777

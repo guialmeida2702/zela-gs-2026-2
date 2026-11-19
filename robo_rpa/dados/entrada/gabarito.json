@@ -1,0 +1,44 @@
+{
+  "linhas": {
+    "os_subprefeitura_se.csv:2": "aceita",
+    "os_subprefeitura_se.csv:3": "aceita",
+    "os_subprefeitura_se.csv:4": "aceita",
+    "os_subprefeitura_se.csv:5": "aceita",
+    "os_subprefeitura_se.csv:6": "aceita",
+    "os_subprefeitura_se.csv:7": "aceita",
+    "os_subprefeitura_se.csv:8": "rejeitada",
+    "os_subprefeitura_se.csv:9": "rejeitada",
+    "os_subprefeitura_se.csv:10": "rejeitada",
+    "os_subprefeitura_se.csv:11": "rejeitada",
+    "os_subprefeitura_se.csv:12": "rejeitada",
+    "os_subprefeitura_se.csv:13": "rejeitada",
+    "os_subprefeitura_se.csv:14": "rejeitada",
+    "os_subprefeitura_lapa.xlsx:2": "aceita",
+    "os_subprefeitura_lapa.xlsx:3": "aceita",
+    "os_subprefeitura_lapa.xlsx:4": "rejeitada",
+    "os_subprefeitura_lapa.xlsx:5": "rejeitada"
+  },
+  "fotos": {
+    "sem_fissura_16351.jpg": "sem_fissura",
+    "fissura_11792_1.jpg": "com_fissura",
+    "sem_fissura_16610.jpg": "sem_fissura",
+    "fissura_02617.jpg": "com_fissura",
+    "fissura_19215_1.jpg": "com_fissura",
+    "sem_fissura_00176.jpg": "sem_fissura",
+    "sem_fissura_08833.jpg": "sem_fissura",
+    "sem_fissura_15063.jpg": "sem_fissura",
+    "sem_fissura_08841.jpg": "sem_fissura",
+    "fissura_01135.jpg": "com_fissura",
+    "fissura_18887_1.jpg": "com_fissura",
+    "sem_fissura_08803.jpg": "sem_fissura",
+    "sem_fissura_00806.jpg": "sem_fissura",
+    "fissura_18866_1.jpg": "com_fissura",
+    "fissura_17861_1.jpg": "com_fissura",
+    "fissura_18279_1.jpg": "com_fissura"
+  },
+  "priorizacao": {
+    "ZL-261112-268EA1": "elevar",
+    "ZL-261112-43EB8C": "elevar",
+    "ZL-261112-58656B": "manter"
+  }
+}

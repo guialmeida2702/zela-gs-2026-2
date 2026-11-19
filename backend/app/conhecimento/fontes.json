@@ -1,0 +1,53 @@
+{
+  "fontes": [
+    {
+      "id": "dc-chuvas-excessivas",
+      "orgao": "Prefeitura de São Paulo — Defesa Civil",
+      "titulo": "Chuvas excessivas: saiba como agir",
+      "url": "https://prefeitura.sp.gov.br/web/defesa_civil/w/cuidados_importantes/179951",
+      "consultado_em": "2026-11-12",
+      "caracteres": 4231
+    },
+    {
+      "id": "poda-ipiranga",
+      "orgao": "Prefeitura de São Paulo — Subprefeitura Ipiranga",
+      "titulo": "Como solicitar poda e remoção de árvore",
+      "url": "https://prefeitura.sp.gov.br/web/ipiranga/w/como-solicitar-poda-e-remo%C3%A7%C3%A3o-de-%C3%A1rvore-no-ipiranga",
+      "consultado_em": "2026-11-12",
+      "caracteres": 3582
+    },
+    {
+      "id": "poda-butanta",
+      "orgao": "Prefeitura de São Paulo — Subprefeitura Butantã",
+      "titulo": "Saiba como solicitar serviços de poda e remoção de árvores",
+      "url": "https://prefeitura.sp.gov.br/web/butanta/w/saiba-como-solicitar-nossos-servi%C3%A7os-de-poda-e-remo%C3%A7%C3%A3o-de-%C3%A1rvores",
+      "consultado_em": "2026-11-12",
+      "caracteres": 2736
+    },
+    {
+      "id": "calcadas-responsabilidade",
+      "orgao": "Prefeitura de São Paulo — Subprefeitura Ipiranga",
+      "titulo": "Manutenção das calçadas é responsabilidade do proprietário do imóvel",
+      "url": "https://prefeitura.sp.gov.br/web/ipiranga/w/a-responsabilidade-da-manuten%C3%A7%C3%A3o-das-cal%C3%A7adas-%C3%A9-de-responsabilidade-do-propriet%C3%A1rio",
+      "consultado_em": "2026-11-12",
+      "caracteres": 1892
+    },
+    {
+      "id": "calcadas-fiscalizacao",
+      "orgao": "Prefeitura de São Paulo — Secretaria das Subprefeituras",
+      "titulo": "Calçadas: fiscalização e regras",
+      "url": "https://prefeitura.sp.gov.br/subprefeituras/w/calcadas/37439",
+      "consultado_em": "2026-11-12",
+      "caracteres": 1822
+    },
+    {
+      "id": "faq-subprefeitura",
+      "orgao": "Prefeitura de São Paulo — Subprefeitura Vila Prudente",
+      "titulo": "Perguntas frequentes da Subprefeitura (poda, poço de visita, sinalização, veículos)",
+      "url": "https://prefeitura.sp.gov.br/web/vila_prudente/w/acesso_a_informacao/50102",
+      "consultado_em": "2026-11-12",
+      "caracteres": 5365
+    }
+  ],
+  "falhas": []
+}

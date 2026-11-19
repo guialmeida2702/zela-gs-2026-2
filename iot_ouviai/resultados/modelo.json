@@ -1,0 +1,83 @@
+{
+  "projeto_edge_impulse": "almeidareff / OuviAí (projeto privado, id 1167378)",
+  "data_execucao": "17/11/2026",
+  "coleta": {
+    "dispositivo": "celular do autor conectado ao Edge Impulse pelo navegador (phone_mw1c7gvk)",
+    "horario_brasilia": "12h17 a 12h30",
+    "frequencia_hz": 16000,
+    "canais": 1,
+    "gravacoes_por_classe": 20,
+    "training_por_classe": 15,
+    "test_por_classe": 5,
+    "ajuste_da_divisao": "a divisão automática 80/20 deixou ambiente com 17/3; ambiente_17 e ambiente_18 (gravadas no meio da sessão) foram movidas para Test; campainha e batida_porta já estavam com 15/5",
+    "nomes": "renomeadas no Edge Impulse para classe_01 a classe_15 (Training) e classe_16 a classe_20 (Test), em ordem de gravação"
+  },
+  "impulse": {
+    "janela_ms": 1000,
+    "passo_ms": 500,
+    "frequencia_hz": 16000,
+    "zero_pad": true,
+    "processamento": "Audio (MFE)",
+    "aprendizado": "Classification",
+    "janelas_training": 404,
+    "janelas_por_classe_training": {"ambiente": 134, "batida_porta": 135, "campainha": 135},
+    "janelas_test": 134
+  },
+  "mfe": {
+    "frame_length_s": 0.02,
+    "frame_stride_s": 0.01,
+    "filtros": 40,
+    "fft": 256,
+    "frequencia_baixa_hz": 0,
+    "frequencia_alta_hz": "padrão (8000, metade da taxa de amostragem)",
+    "noise_floor_db": -52,
+    "features_por_janela": 3960,
+    "tempo_processamento_ms": 150,
+    "ram_kb": 20
+  },
+  "classificador": {
+    "arquitetura": "entrada 3.960 features → reshape 40 colunas → conv1D 8 filtros (kernel 3) + pool → dropout 0,25 → conv1D 16 filtros (kernel 3) + pool → dropout 0,25 → flatten → saída 3 classes (softmax)",
+    "ciclos": 100,
+    "taxa_aprendizado": 0.005,
+    "batch": 32,
+    "validacao_pct": 20,
+    "data_augmentation": false,
+    "auto_weight_classes": false,
+    "confianca_minima": 0.6
+  },
+  "validacao": {
+    "int8": {
+      "acuracia_pct": 90.1, "loss": 0.20, "auc": 0.98, "precisao_ponderada": 0.93, "recall_ponderado": 0.90, "f1_ponderado": 0.90,
+      "matriz_pct": {
+        "ambiente": {"ambiente": 100, "batida_porta": 0, "campainha": 0},
+        "batida_porta": {"ambiente": 0, "batida_porta": 100, "campainha": 0},
+        "campainha": {"ambiente": 27.6, "batida_porta": 0, "campainha": 72.4}
+      },
+      "f1": {"ambiente": 0.85, "batida_porta": 1.00, "campainha": 0.84},
+      "desempenho_cortex_m4f_80mhz": {"inferencia_ms": 8, "ram_kb": 14.7, "flash_kb": 40.9}
+    },
+    "float32": {
+      "acuracia_pct": 90.1, "loss": 0.19, "auc": 0.99,
+      "desempenho_cortex_m4f_80mhz": {"inferencia_ms": 59, "ram_kb": 35.0, "flash_kb": 41.0}
+    }
+  },
+  "model_testing": {
+    "int8": {
+      "acuracia_janelas_pct": 76.12, "janelas_corretas": 102, "janelas": 134, "auc": 0.93, "f1_ponderado": 0.83,
+      "matriz_janelas_pct": {
+        "ambiente": {"ambiente": 54.5, "batida_porta": 2.3, "campainha": 25.0, "incerto": 18.2},
+        "batida_porta": {"ambiente": 0, "batida_porta": 100, "campainha": 0, "incerto": 0},
+        "campainha": {"ambiente": 2.2, "batida_porta": 0, "campainha": 73.3, "incerto": 24.4}
+      }
+    },
+    "float32": {
+      "acuracia_janelas_pct": 77.61,
+      "matriz_janelas_pct": {
+        "ambiente": {"ambiente": 56.8, "batida_porta": 2.3, "campainha": 25.0, "incerto": 15.9},
+        "batida_porta": {"ambiente": 0, "batida_porta": 100, "campainha": 0, "incerto": 0},
+        "campainha": {"ambiente": 2.2, "batida_porta": 0, "campainha": 75.6, "incerto": 22.2}
+      }
+    },
+    "regra_por_arquivo": "classe prevista = a resposta mais frequente entre as janelas do arquivo; 'incerto' (nenhuma classe com 60% ou mais) conta como resposta; empate conta como incerto"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "tempo_total_simulado_s": 2252.428523219095,
+  "satisfacao_pct": 100.0,
+  "ociosidade_processamento_pct": 0.36410154648276005,
+  "ociosidade_comunicacao_pct": 99.95201544244088,
+  "recursos": [
+    {
+      "recurso": "worker1",
+      "dono": "user1",
+      "processamento": 2244.1632089285245,
+      "comunicacao": 0.0
+    },
+    {
+      "recurso": "worker2",
+      "dono": "user1",
+      "processamento": 2244.253034255507,
+      "comunicacao": 0.0
+    },
+    {
+      "recurso": "mestre",
+      "dono": "user1",
+      "processamento": 0.0,
+      "comunicacao": 0.0
+    },
+    {
+      "recurso": "enlace_ida_1",
+      "dono": "---",
+      "processamento": 0.0,
+      "comunicacao": 2.0416999999999947
+    },
+    {
+      "recurso": "enlace_volta_2",
+      "dono": "---",
+      "processamento": 0.0,
+      "comunicacao": 0.12001708984375023
+    },
+    {
+      "recurso": "enlace_ida_2",
+      "dono": "---",
+      "processamento": 0.0,
+      "comunicacao": 2.038299999999995
+    },
+    {
+      "recurso": "enlace_volta_1",
+      "dono": "---",
+      "processamento": 0.0,
+      "comunicacao": 0.12021728515625027
+    }
+  ]
+}

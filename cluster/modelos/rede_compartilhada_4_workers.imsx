@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE system SYSTEM "iSPD.dtd">
+<system version="2.1">
+<owner id="user1"/>
+<cluster id="cluster_zela" nodes="4" power="10000" bandwidth="10" latency="0.05" scheduler="Workqueue" owner="user1" master="true"><position x="200" y="200"/><icon_id global="1" local="0"/></cluster>
+<load><node application="zela" owner="user1" id_master="cluster_zela" tasks="240"><size type="computing" minimum="300000" average="300000" maximum="300000" probability="0.0"/><size type="communication" minimum="100" average="100" maximum="100" probability="0.0"/></node></load>
+</system>

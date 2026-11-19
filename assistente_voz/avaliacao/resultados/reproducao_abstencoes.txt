@@ -1,0 +1,25 @@
+Reprodução de turnos que viraram abstenção no teste de voz (e da pergunta D09 do teste de 30), em 13/11/2026.
+Gerado por backend/scripts/experimentos/reproduzir_abstencoes_voz.py com o modelo local. A saída do modelo varia entre execuções:
+este arquivo mostra uma execução, não uma medida. 'fonte=None' = frase sem apoio em nenhuma fonte (sai da resposta).
+
+
+== C8T1 | consulta: A tampa do boeiro fundou na minha rua. | trechos: ['calcadas-fiscalizacao#0', 'dc-chuvas-excessivas#0', 'calcadas-responsabilidade#2', 'calcadas-responsabilidade#1']
+MODELO: A tampa do boiêro fundiu na sua rua. Como a responsabilidade pela manutenção das calçadas está com o proprietário, você deve notificar esse proprietário para que ele faça os reparos necessários dentro de 30 dias. [1, 2] sem_ev= False
+   fonte=None motivo=sem_apoio | A tampa do boiêro fundiu na sua rua.
+   fonte=3 motivo=None | Como a responsabilidade pela manutenção das calçadas está com o proprietário, você deve notificar esse proprietário para que ele faça os reparos necessários den
+
+== C1T3 | consulta: Como eu peço a poda de uma árvore na calçada? E se não fizerem nesse prazo. | trechos: ['poda-butanta#2', 'calcadas-responsabilidade#2', 'poda-ipiranga#4', 'faq-subprefeitura#10']
+MODELO: Se não for atendido dentro do prazo, a subprefeitura pode leiloar o bem. [1] sem_ev= False
+   fonte=2 motivo=None | Se não for atendido dentro do prazo, a subprefeitura pode leiloar o bem.
+
+== C4T2 | consulta: Tenho um fio caído soltando faísca na calçada. Para qual número ligo? | trechos: ['calcadas-responsabilidade#1', 'poda-butanta#1', 'calcadas-responsabilidade#2', 'calcadas-responsabilidade#0']
+MODELO: ligue 193 [1, 2, 3, 4] sem_ev= False
+   fonte=None motivo=None | ligue 193
+
+== C5T2 | consulta: Tem água limpa vazando no meio da rua. Qual é o telefone deles? | trechos: ['faq-subprefeitura#5', 'poda-ipiranga#5', 'poda-ipiranga#2', 'faq-subprefeitura#11']
+MODELO: (11) 3540-0399 [2] sem_ev= False
+   fonte=2 motivo=None | (11) 3540-0399
+
+== D09 | consulta: depois da enchente posso beber a água da torneira | trechos: ['dc-chuvas-excessivas#7', 'dc-chuvas-excessivas#3', 'dc-chuvas-excessivas#4', 'dc-chuvas-excessivas#6']
+MODELO: sim, você pode beber a água filtrada ou fervida após uma enchente [1] sem_ev= False
+   fonte=3 motivo=None | sim, você pode beber a água filtrada ou fervida após uma enchente

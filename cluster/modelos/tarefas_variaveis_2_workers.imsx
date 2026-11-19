@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE system SYSTEM "iSPD.dtd">
+<system version="2.1">
+<owner id="user1"/>
+<machine id="mestre" power="10000" load="0.0" owner="user1"><master scheduler="Workqueue"><slave id="2"/><slave id="3"/></master><position x="180" y="60"/><icon_id global="1" local="0"/></machine>
+<machine id="worker1" power="10000" load="0.0" owner="user1"><position x="120" y="300"/><icon_id global="2" local="1"/></machine>
+<machine id="worker2" power="10000" load="0.0" owner="user1"><position x="240" y="300"/><icon_id global="3" local="2"/></machine>
+<link id="enlace_ida_1" bandwidth="1000" load="0.0" latency="0.001"><connect origination="1" destination="2"/><icon_id global="4" local="5"/></link>
+<link id="enlace_volta_1" bandwidth="1000" load="0.0" latency="0.001"><connect origination="2" destination="1"/><icon_id global="6" local="7"/></link>
+<link id="enlace_ida_2" bandwidth="1000" load="0.0" latency="0.001"><connect origination="1" destination="3"/><icon_id global="8" local="9"/></link>
+<link id="enlace_volta_2" bandwidth="1000" load="0.0" latency="0.001"><connect origination="3" destination="1"/><icon_id global="10" local="11"/></link>
+<load><node application="zela" owner="user1" id_master="mestre" tasks="240"><size type="computing" minimum="50000" average="300000" maximum="600000" probability="0.0"/><size type="communication" minimum="16" average="16" maximum="16" probability="0.0"/></node></load>
+</system>

@@ -1,0 +1,61 @@
+opcao;arquivo;locutor;condicao;referencia;transcricao;wer;segundos
+tiny;S01_voz1.m4a;voz1;silencioso;Tem um buraco enorme na frente do ponto de ônibus da minha rua.;Tem um buraco enorme na frente do ponto de ônibus da minha rua.;0.0;0.4
+tiny;S02_voz1.m4a;voz1;silencioso;O poste da praça está apagado faz uma semana.;O poche da praça está apagado faz uma semana.;0.111;0.3
+tiny;S03_voz1.m4a;voz1;silencioso;Como eu peço a poda de uma árvore na calçada?;Como eu peço a pada de uma árvore inacossada.;0.3;0.35
+tiny;S04_voz1.m4a;voz1;silencioso;A tampa do bueiro afundou e está escrito Sabesp nela.;A tampa do buirafondou está escrito sabéspinella.;0.5;0.32
+tiny;S05_voz1.m4a;voz1;silencioso;Quanto tempo a subprefeitura leva para fazer a poda?;Quanto tempo a subir prefeitura leva para fazer a pôdor?;0.333;0.36
+tiny;S06_voz2.m4a;voz2;silencioso;Tem água limpa vazando no meio do asfalto há dois dias.;Tem água limpa fazendo no meio das falta dois dias.;0.364;0.33
+tiny;S07_voz2.m4a;voz2;silencioso;Jogaram entulho e um sofá velho na esquina de casa.;jogar um entúrio e um sofá velho na esquina de casa.;0.3;0.34
+tiny;S08_voz2.m4a;voz2;silencioso;O semáforo do cruzamento está piscando amarelo desde ontem.;O semáforo do cruzamento está buscando amarelo desde ontem.;0.111;0.32
+tiny;S09_voz2.m4a;voz2;silencioso;Qual é a multa para quem não conserta a calçada?;Qual é a multa para quem não consegue acalçada?;0.3;0.3
+tiny;S10_voz2.m4a;voz2;silencioso;Caiu um fio de energia na calçada e está soltando faísca.;que a infelde energia na calçada está soltando fariska.;0.545;0.31
+tiny;S11_voz3.m4a;voz3;silencioso;Posso pedir para plantar uma árvore na frente da escola?;Posso pedir para plantar uma árvore na frente da escola?;0.0;0.3
+tiny;S12_voz3.m4a;voz3;silencioso;O Zela guarda o meu telefone ou o meu CPF?;O Zélaguard do meu telefone ou meu CPF.;0.4;0.3
+tiny;S13_voz3.m4a;voz3;silencioso;O que eu faço se a minha rua alagar de novo?;O que eu faço sem me arrular de novo?;0.455;0.29
+tiny;S14_voz3.m4a;voz3;silencioso;Tem um carro abandonado na rua faz três semanas.;Tem um carbono dado na rua faz 3 semanas.;0.222;0.28
+tiny;S15_voz3.m4a;voz3;silencioso;A calçada em frente ao posto de saúde está toda quebrada.;A calçada enfrenta ao posto de saúde está toda quebrada.;0.182;0.33
+tiny;S16_voz1.m4a;voz1;ruido;O bueiro da esquina está entupido de folhas e terra.;O buiro da esquina está entupido de folhas e terra.;0.1;0.32
+tiny;S17_voz1.m4a;voz1;ruido;Depois da enchente posso beber a água da torneira?;Depois da enchente, eu posso beber água da turnera.;0.333;0.29
+tiny;S18_voz2.m4a;voz2;ruido;Quem é responsável por consertar o semáforo?;Quem é responsável por concertar o semáforo?;0.143;0.31
+tiny;S19_voz2.m4a;voz2;ruido;Uma árvore grande caiu em cima do muro do vizinho.;com uma árvore grande de caio em cima do mundo do vizinho.;0.4;0.34
+tiny;S20_voz3.m4a;voz3;ruido;E se o galho estiver encostando nos fios?;Isso o gálise tiver encostando nos fios.;0.5;0.34
+small;S01_voz1.m4a;voz1;silencioso;Tem um buraco enorme na frente do ponto de ônibus da minha rua.;tem um buraco enorme na frente do ponto de ônibus da minha rua.;0.0;2.2
+small;S02_voz1.m4a;voz1;silencioso;O poste da praça está apagado faz uma semana.;O poste da praça está apagado faz uma semana.;0.0;1.88
+small;S03_voz1.m4a;voz1;silencioso;Como eu peço a poda de uma árvore na calçada?;como eu peço a poda de uma árvore na calçada.;0.0;1.95
+small;S04_voz1.m4a;voz1;silencioso;A tampa do bueiro afundou e está escrito Sabesp nela.;A tampa do boeiro a fundou e está escrito Sabesp nela.;0.3;1.97
+small;S05_voz1.m4a;voz1;silencioso;Quanto tempo a subprefeitura leva para fazer a poda?;Quanto tempo a subprefeitura leva para fazer a poda?;0.0;1.79
+small;S06_voz2.m4a;voz2;silencioso;Tem água limpa vazando no meio do asfalto há dois dias.;Tem água limpa vazando o número das faltas dois dias.;0.455;1.7
+small;S07_voz2.m4a;voz2;silencioso;Jogaram entulho e um sofá velho na esquina de casa.;jogar o entúlio e um sofá velho na esquina de casa.;0.3;1.9
+small;S08_voz2.m4a;voz2;silencioso;O semáforo do cruzamento está piscando amarelo desde ontem.;O semáforo do cruzamento está piscando amarelo desde ontem.;0.0;1.87
+small;S09_voz2.m4a;voz2;silencioso;Qual é a multa para quem não conserta a calçada?;Qual é a multa para quem não conserta a calçada?;0.0;1.91
+small;S10_voz2.m4a;voz2;silencioso;Caiu um fio de energia na calçada e está soltando faísca.;Caí um fio de energia na calçada e está soltando faísca.;0.091;1.97
+small;S11_voz3.m4a;voz3;silencioso;Posso pedir para plantar uma árvore na frente da escola?;Posso pedir para plantar uma árvore na frente da escola?;0.0;1.85
+small;S12_voz3.m4a;voz3;silencioso;O Zela guarda o meu telefone ou o meu CPF?;O Zela guarda o meu telefone ou o meu CPF?;0.0;1.77
+small;S13_voz3.m4a;voz3;silencioso;O que eu faço se a minha rua alagar de novo?;O que eu faço se me arrulgar de novo?;0.364;1.96
+small;S14_voz3.m4a;voz3;silencioso;Tem um carro abandonado na rua faz três semanas.;Tem um carro abandonado na rua faz três semanas.;0.0;1.81
+small;S15_voz3.m4a;voz3;silencioso;A calçada em frente ao posto de saúde está toda quebrada.;A calçada em frente ao posto de saúde está toda quebrada.;0.0;1.95
+small;S16_voz1.m4a;voz1;ruido;O bueiro da esquina está entupido de folhas e terra.;O boeiro da esquina está entupido de folhas e terra.;0.1;1.88
+small;S17_voz1.m4a;voz1;ruido;Depois da enchente posso beber a água da torneira?;Depois da enchente, eu posso beber água da torneira?;0.222;1.77
+small;S18_voz2.m4a;voz2;ruido;Quem é responsável por consertar o semáforo?;Quem é o responsável por consertar o semáforo?;0.143;1.88
+small;S19_voz2.m4a;voz2;ruido;Uma árvore grande caiu em cima do muro do vizinho.;Uma árvore grande caiu em cima do muro do vizinho.;0.0;1.82
+small;S20_voz3.m4a;voz3;ruido;E se o galho estiver encostando nos fios?;E se o Galle estiver encostando nos fios?;0.125;1.85
+small+vocab;S01_voz1.m4a;voz1;silencioso;Tem um buraco enorme na frente do ponto de ônibus da minha rua.;Tem um buraco enorme na frente do ponto de ônibus da minha rua.;0.0;2.15
+small+vocab;S02_voz1.m4a;voz1;silencioso;O poste da praça está apagado faz uma semana.;O poste da praça está apagado faz uma semana.;0.0;1.95
+small+vocab;S03_voz1.m4a;voz1;silencioso;Como eu peço a poda de uma árvore na calçada?;Como eu peço a poda de uma árvore na calçada?;0.0;1.94
+small+vocab;S04_voz1.m4a;voz1;silencioso;A tampa do bueiro afundou e está escrito Sabesp nela.;A tampa do bueiro afundou e está escrito Sabesp nela.;0.0;1.87
+small+vocab;S05_voz1.m4a;voz1;silencioso;Quanto tempo a subprefeitura leva para fazer a poda?;Quanto tempo a subprefeitura leva para fazer a poda?;0.0;1.85
+small+vocab;S06_voz2.m4a;voz2;silencioso;Tem água limpa vazando no meio do asfalto há dois dias.;Tem água limpa vazando o número das faltas dois dias.;0.455;1.87
+small+vocab;S07_voz2.m4a;voz2;silencioso;Jogaram entulho e um sofá velho na esquina de casa.;Jogar o entulho e um sofá velho na esquina de casa.;0.2;2.0
+small+vocab;S08_voz2.m4a;voz2;silencioso;O semáforo do cruzamento está piscando amarelo desde ontem.;O semáforo do cruzamento está piscando amarelo desde ontem.;0.0;1.91
+small+vocab;S09_voz2.m4a;voz2;silencioso;Qual é a multa para quem não conserta a calçada?;Qual é a multa para quem não conserta calçada?;0.1;1.88
+small+vocab;S10_voz2.m4a;voz2;silencioso;Caiu um fio de energia na calçada e está soltando faísca.;Caí um fio de energia na calçada e está soltando faísca.;0.091;1.93
+small+vocab;S11_voz3.m4a;voz3;silencioso;Posso pedir para plantar uma árvore na frente da escola?;Posso pedir para plantar uma árvore na frente da escola?;0.0;1.79
+small+vocab;S12_voz3.m4a;voz3;silencioso;O Zela guarda o meu telefone ou o meu CPF?;O Zela guarda o meu telefone ou o meu CPF?;0.0;1.92
+small+vocab;S13_voz3.m4a;voz3;silencioso;O que eu faço se a minha rua alagar de novo?;O que eu faço se me arrullar a guarde novo?;0.455;1.97
+small+vocab;S14_voz3.m4a;voz3;silencioso;Tem um carro abandonado na rua faz três semanas.;Tem um carro abandonado na rua faz três semanas.;0.0;1.82
+small+vocab;S15_voz3.m4a;voz3;silencioso;A calçada em frente ao posto de saúde está toda quebrada.;A calçada em frente ao posto de saúde está toda quebrada.;0.0;1.96
+small+vocab;S16_voz1.m4a;voz1;ruido;O bueiro da esquina está entupido de folhas e terra.;O bueiro da esquina está entupido de folhas e terra.;0.0;1.83
+small+vocab;S17_voz1.m4a;voz1;ruido;Depois da enchente posso beber a água da torneira?;Depois da enchente, eu posso beber água da torneira?;0.222;1.89
+small+vocab;S18_voz2.m4a;voz2;ruido;Quem é responsável por consertar o semáforo?;Quem é o responsável por consertar o semáforo?;0.143;1.79
+small+vocab;S19_voz2.m4a;voz2;ruido;Uma árvore grande caiu em cima do muro do vizinho.;Uma árvore grande caiu em cima do muro do vizinho.;0.0;1.95
+small+vocab;S20_voz3.m4a;voz3;ruido;E se o galho estiver encostando nos fios?;E se o gale estiver encostando nos fios?;0.125;1.76

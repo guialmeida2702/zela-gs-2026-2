@@ -1,0 +1,8 @@
+Rodadas reconferidas (mesma divisão em trechos do código atual): resultados_rodada4.json, resultados_rodada5.json
+
+resultados_rodada5.json U3: abstenção escrita pelo modelo vira o texto padrão
+   R: Não há informações sobre o telefone da Subprefeitura da Mooca.
+resultados_rodada5.json M3 (critério automático: falha): vira abstenção
+   [numero_sem_fonte] O munícipe ficará sujeito a multa de R$ 635,00 por metro linear caso não realize o pagamento dentro do prazo de 90 dias.
+
+2 de 29 respostas entregues mudariam com a conferência por frase.
