@@ -11,8 +11,8 @@ A conferência item a item de cada enunciado está em [`docs/conformidade.md`](d
 
 ## Para todas as disciplinas
 
-- 🧑 Criar o repositório público no GitHub, subir tudo e colar o link no README (tabela do topo) e no tópico
-  "Links" do documento ABNT.
+- ✅ Repositório público https://github.com/guialmeida2702/zela-gs-2026-2, com os links dos vídeos no README (tabela do
+  topo) e no tópico "Links" do documento ABNT.
 - 🧑 Conferir no portal se algum enunciado mudou desde 12/11/2026.
 - ✅ **PLN:** o professor confirmou (16/11) que a disciplina exige as duas entregas, o assistente de voz completo
   (`assistente_voz/`) e a ferramenta de corpus (`corpus_pln/`). O relatório de PLN cobre as duas, e o vídeo deve
@@ -22,16 +22,16 @@ A conferência item a item de cada enunciado está em [`docs/conformidade.md`](d
 
 | Disciplina | Pronto no repositório | Falta fazer (só o autor) |
 |---|---|---|
-| **Front End & Mobile** | ✅ código nas camadas exigidas, 132 testes (90 da API e 42 da interface), Docker Compose testado, avaliação da IA com ajuste de prompt, README completo | ✅ teste com 3 pessoas feito em 19/11 e ajuste publicado (`docs/validacao_usuarios.md`, README 8.5 a); 🧑 vídeo de até 5 min (`docs/roteiro_video.md`); 🧑 deploy público (opcional) |
-| **Visão Computacional** | ✅ pipeline, modelo, métricas, análise de erros, latência e FPS, integração no protótipo, relatório em PDF | 🧑 vídeo de demonstração (roteiro no fim do relatório) |
-| **Generative AI** | ✅ assistente com RAG integrado, corpus com URLs e datas, avaliação por componente e ponta a ponta, testes adversariais, relatório em PDF | 🧑 vídeo de até 5 min (roteiro no fim do relatório) |
-| **NLP (assistente de voz)** | ✅ código modular, README com modelos e licenças, 30 perguntas com resposta esperada, 10 conversas com latência por etapa, comparação de três opções de STT, 20 gravações reais de 3 pessoas avaliadas (WER 9,1% com a opção adotada) e análise de viés, notas do TTS de 3 pessoas (5,00 de naturalidade e de clareza), planilha de avaliação, relatório em PDF | 🧑 vídeo com conversa real de 3 turnos, continuação e recusa |
-| **NLP (ferramenta de corpus)** | ✅ interface e linha de comando, 9 formatos de entrada, limpeza com relatório, três corpora em JSONL com treino e validação, rastreabilidade e ficha do corpus, 13 testes, seção 8 do relatório de PLN | 🧑 cerca de 1 minuto no vídeo de PLN: envio de documentos, a limpeza e os corpora gerados |
+| **Front End & Mobile** | ✅ código nas camadas exigidas, 132 testes (90 da API e 42 da interface), Docker Compose testado, avaliação da IA com ajuste de prompt, README completo | ✅ teste com 3 pessoas feito em 19/11 e ajuste publicado (`docs/validacao_usuarios.md`, README 8.5 a); ✅ vídeo https://youtu.be/JcFEKq4wdOY; 🧑 deploy público (opcional) |
+| **Visão Computacional** | ✅ pipeline, modelo, métricas, análise de erros, latência e FPS, integração no protótipo, relatório em PDF | ✅ vídeo https://youtu.be/Xs4jRR95iy4 |
+| **Generative AI** | ✅ assistente com RAG integrado, corpus com URLs e datas, avaliação por componente e ponta a ponta, testes adversariais, relatório em PDF | ✅ vídeo https://youtu.be/MjPO4xvkqT4 |
+| **NLP (assistente de voz)** | ✅ código modular, README com modelos e licenças, 30 perguntas com resposta esperada, 10 conversas com latência por etapa, comparação de três opções de STT, 20 gravações reais de 3 pessoas avaliadas (WER 9,1% com a opção adotada) e análise de viés, notas do TTS de 3 pessoas (5,00 de naturalidade e de clareza), planilha de avaliação, relatório em PDF | ✅ vídeo https://youtu.be/koG6Juh39FA (conversa por voz de 4 turnos, com continuação e recusa) |
+| **NLP (ferramenta de corpus)** | ✅ interface e linha de comando, 9 formatos de entrada, limpeza com relatório, três corpora em JSONL com treino e validação, rastreabilidade e ficha do corpus, 13 testes, seção 8 do relatório de PLN | ✅ parte final do vídeo de PLN (https://youtu.be/koG6Juh39FA) |
 | **AI for RPA** | ✅ robô com 6 temas, quadro de temas, validação medida, casos de falha, evidências | 🧑 (opcional) configurar SMTP com senha de app para envio real do boletim |
 | **Cluster Computing** | ✅ modelos do iSPD, simulações, capturas da interface, relatório de 4 páginas | 🧑 (opcional) abrir os modelos no iSPD para conferir |
 | **Computação Quântica** | ✅ documento (gargalo, capacidade, roteiro, ética, LGPD e ODS) | nada |
 | **Cognitive IoT (OuviAí)** | ✅ 60 gravações conferidas (15/5 por classe), impulse MFE + CNN treinado no Edge Impulse (validação 90,1%), Classify all nos 15 arquivos de Test (76,1% por janela, 12 de 15 arquivos), cinco capturas, planilha e relatório preenchidos e teste ao vivo (10 de 15, 5 falsos positivos em ambiente) registrado na seção 6 | nada (vídeo do teste ao vivo na seção 6; ambiente_06 tem uma batida, documentado como limitação) |
-| **Governança & BA** | ✅ documento ABNT (`docs/governanca/`), roteiro do vídeo integrador | 🧑 **escrever a Conclusão sem IA** (regra do enunciado), com até cerca de 20 linhas para o documento continuar em 15 páginas; preencher os links; 🧑 vídeo de 5 a 7 min no YouTube (não listado) |
+| **Governança & BA** | ✅ documento ABNT (`docs/governanca/`), com a Conclusão escrita pelo autor e os links | ✅ vídeo integrador https://youtu.be/WPcYaI7U0ww (6 min 38 s) |
 
 ## Como regerar os documentos
 

@@ -12,9 +12,15 @@ faz a rotina diária e acompanha onde a IA erra.
 | | |
 |---|---|
 | **Autor** | Guilherme Almeida · RM 563972 · turma 2TIAPY · trabalho individual |
-| **Vídeo integrador** | _(link do YouTube, não listado; roteiro em [`docs/roteiro_video_integrador.md`](docs/roteiro_video_integrador.md))_ |
+| **Repositório** | https://github.com/guialmeida2702/zela-gs-2026-2 |
+| **Vídeo integrador (Governança)** | https://youtu.be/WPcYaI7U0ww (YouTube, não listado) |
+| **Vídeo Front End & Mobile** | https://youtu.be/JcFEKq4wdOY |
+| **Vídeo Visão Computacional** | https://youtu.be/Xs4jRR95iy4 |
+| **Vídeo Generative AI** | https://youtu.be/MjPO4xvkqT4 |
+| **Vídeo NLP (voz + corpus)** | https://youtu.be/koG6Juh39FA |
+| **Cognitive IoT (teste ao vivo do OuviAí)** | https://youtube.com/shorts/BKm9vIrK8n4 |
 | **Documento ABNT** | [`docs/governanca/Zela_documentacao_integrada.pdf`](docs/governanca/Zela_documentacao_integrada.pdf) (gerado por `docs/governanca/gerar_documento.py`) |
-| **Deploy** | _(URL pública, se houver; ver [Deploy](#7-deploy))_ |
+| **Deploy** | Docker Compose (opção B do enunciado), demonstrado no vídeo de Front End; ver [Deploy](#7-deploy) |
 
 ![Arquitetura integrada](docs/img/arquitetura_integrada.png)
 
@@ -516,7 +522,7 @@ e 6, as regras de segurança corrigiram a urgência. Essa comparação mostra o 
 | Testes automatizados | ✅ 132 testes do protótipo (90 da API e 42 da interface, com pytest e AppTest), sem precisar de chave nem da interface no ar; mais 25 verificações pela API e 12 etapas no navegador com a aplicação no ar |
 | Acessibilidade avançada | ✅ Leitura em voz alta, alto contraste, tamanho do texto, teclado, checklist WCAG |
 | Identidade visual e storytelling | ✅ Nome, tema e narrativa em três etapas (contar → conferir → protocolo) |
-| Validação ampliada | Roteiro com escala de 5 perguntas pronta para quantificar (falta aplicar) |
+| Validação ampliada | ✅ Teste com 3 pessoas aplicado, com escala de 5 perguntas e um ajuste publicado (seção 8.5 a) |
 | Modelo próprio | **Incluído:** classificador de fissuras (MobileNetV3-Small) treinado na disciplina de Visão Computacional, servido pela API (`/visao/analisar`) e usado no relato com foto, em complemento ao LLM |
 
 ---
