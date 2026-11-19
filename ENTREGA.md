@@ -22,7 +22,7 @@ A conferência item a item de cada enunciado está em [`docs/conformidade.md`](d
 
 | Disciplina | Pronto no repositório | Falta fazer (só o autor) |
 |---|---|---|
-| **Front End & Mobile** | ✅ código nas camadas exigidas, 132 testes (90 da API e 42 da interface), Docker Compose testado, avaliação da IA com ajuste de prompt, README completo | 🧑 teste com 3 pessoas (`docs/validacao_usuarios.md`) e preencher a seção 8.5 (a) do README; 🧑 vídeo de até 5 min (`docs/roteiro_video.md`); 🧑 deploy público (opcional) |
+| **Front End & Mobile** | ✅ código nas camadas exigidas, 132 testes (90 da API e 42 da interface), Docker Compose testado, avaliação da IA com ajuste de prompt, README completo | ✅ teste com 3 pessoas feito em 19/11 e ajuste publicado (`docs/validacao_usuarios.md`, README 8.5 a); 🧑 vídeo de até 5 min (`docs/roteiro_video.md`); 🧑 deploy público (opcional) |
 | **Visão Computacional** | ✅ pipeline, modelo, métricas, análise de erros, latência e FPS, integração no protótipo, relatório em PDF | 🧑 vídeo de demonstração (roteiro no fim do relatório) |
 | **Generative AI** | ✅ assistente com RAG integrado, corpus com URLs e datas, avaliação por componente e ponta a ponta, testes adversariais, relatório em PDF | 🧑 vídeo de até 5 min (roteiro no fim do relatório) |
 | **NLP (assistente de voz)** | ✅ código modular, README com modelos e licenças, 30 perguntas com resposta esperada, 10 conversas com latência por etapa, comparação de três opções de STT, 20 gravações reais de 3 pessoas avaliadas (WER 9,1% com a opção adotada) e análise de viés, notas do TTS de 3 pessoas (5,00 de naturalidade e de clareza), planilha de avaliação, relatório em PDF | 🧑 vídeo com conversa real de 3 turnos, continuação e recusa |

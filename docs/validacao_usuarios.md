@@ -44,17 +44,33 @@ Pergunta aberta: **“O que mais te atrapalhou?”** e **“O que você mudaria 
 
 | Pessoa | Perfil | Concluiu a tarefa 1? | Tempo até o protocolo | Corrigiu a IA? | Dificuldades observadas | Q1 | Q2 | Q3 | Q4 | Q5 | Frase marcante |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| P1 | | | | | | | | | | | |
-| P2 | | | | | | | | | | | |
-| P3 | | | | | | | | | | | |
-| P4 | | | | | | | | | | | |
-| P5 | | | | | | | | | | | |
+| P1 | Homem, 22 anos | Sim | até 3 min | Não | Nenhuma aparente | 5 | 5 | 5 | 4 | 3 | não registrada |
+| P2 | Mulher, 47 anos | Sim | até 3 min | Não | Nenhuma aparente | 5 | 5 | 5 | 3 | 3 | não registrada |
+| P3 | Homem, 55 anos | Sim | até 3 min | Não | Nenhuma aparente | 5 | 5 | 5 | 5 | 3 | não registrada |
+| **Média** | | 3 de 3 | | 0 de 3 | | **5,0** | **5,0** | **5,0** | **4,0** | **3,0** | |
+
+Sessões feitas em 19/11/2026, no Zela rodando no GitHub Codespaces com o LLM real (Groq `openai/gpt-oss-20b`), no
+computador do autor, com o autor observando sem ajudar. O tempo foi anotado como faixa ("até 3 min"), não cronometrado
+por pessoa.
 
 ## 5. Síntese e ajuste realizado
 
-- **Principais observações:** _(o que se repetiu entre as pessoas)_
-- **Ajuste feito a partir do feedback:** _(o que mudou no código/tela, com o arquivo e o commit)_
-- **Resultado após o ajuste:** _(se possível, teste de novo com 1 pessoa)_
+- **Principais observações:** as 3 pessoas registraram o relato até o protocolo em até 3 minutos, sem dificuldade
+  aparente, e nenhuma corrigiu a classificação da IA. Deram nota máxima para descrever o problema (Q1), entender a
+  resposta (Q2) e confiar na classificação (Q3). A nota de uso mais baixa foi Q4, "saberia corrigir a classificação se
+  estivesse errada": média 4,0, com 3 de P2. Como ninguém precisou corrigir, esse caminho não foi usado durante o
+  teste, e a nota indica que ele não estava evidente na tela. Q5, "usaria isto em vez de ligar para o 156", ficou em 3
+  para as três; o teste não registrou o motivo. Uma hipótese, não verificada, é que o Zela ainda não envia o relato ao
+  canal oficial (limitação declarada no README, seção 8.4).
+- **Ajuste feito a partir do feedback:** na tela de confirmação, o título passou de "Está correto?" para "Está correto?
+  Se a IA errou, corrija aqui", com uma instrução logo abaixo: trocar o tipo ou a urgência nas listas antes de
+  confirmar, porque a escolha da pessoa vale mais que a sugestão da IA (`frontend/features/relatar.py`, função
+  `_revisao`; commit "Ajuste do teste com usuários: correção da IA explícita na confirmação").
+- **Resultado após o ajuste:** não houve nova rodada com as mesmas pessoas antes da entrega. O próximo teste deve
+  repetir Q4 e pedir a cada pessoa que corrija uma classificação de propósito, para medir se ela acha o caminho.
+- **Limites deste teste:** 3 pessoas próximas do autor, avaliação não cega e notas no teto em Q1 a Q3, que podem
+  incluir cortesia. O teste mostra que o fluxo principal é concluído sem ajuda, não que o público-alvo inteiro o
+  conclua.
 
 ### Pontos que vale observar (hipóteses de ajuste que o próprio projeto já prevê)
 Use apenas se a observação **realmente** acontecer nos testes:

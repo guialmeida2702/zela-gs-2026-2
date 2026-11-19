@@ -187,7 +187,10 @@ def _revisao() -> None:
 
     categorias = theme.opcoes_categoria(an["categoria"])
     with st.form("form_confirmacao", border=True):
-        st.markdown("#### Está correto?")
+        # Ajuste do teste com usuários: Q4 ("saberia corrigir") teve a menor nota de uso; o caminho fica explícito.
+        st.markdown("#### Está correto? Se a IA errou, corrija aqui")
+        st.caption("✏️ Para corrigir, troque o **tipo** ou a **urgência** nas listas abaixo antes de confirmar. "
+                   "A sua escolha vale mais que a sugestão da IA.")
         c1, c2 = st.columns(2)
         categoria_final = c1.selectbox("Tipo de problema", categorias, index=categorias.index(an["categoria"]),
                                        format_func=theme.nome_categoria,

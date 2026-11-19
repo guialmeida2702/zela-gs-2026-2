@@ -402,15 +402,29 @@ fica no histórico. Os indicadores “tipo mantido” e “urgência mantida” 
 #### (a) Teste com pessoas do público-alvo
 Roteiro, perguntas e ficha de observação em **[`docs/validacao_usuarios.md`](docs/validacao_usuarios.md)**.
 
-> ⚠️ **A preencher com sessões reais (mínimo 3 pessoas).** Copie aqui a síntese da ficha:
+Três sessões em 19/11/2026, no Zela rodando no GitHub Codespaces com o LLM real, com o autor observando sem ajudar.
+Notas de 1 (discordo totalmente) a 5 (concordo totalmente).
 
-| Pessoa | Perfil | Concluiu? | Tempo | Principal dificuldade | Nota média (Q1–Q5) |
-|---|---|---|---|---|---|
-| P1 | | | | | |
-| P2 | | | | | |
-| P3 | | | | | |
+| Pessoa | Perfil | Concluiu? | Tempo até o protocolo | Corrigiu a IA? | Principal dificuldade | Q1 | Q2 | Q3 | Q4 | Q5 | Nota média |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| P1 | Homem, 22 anos | Sim | até 3 min | Não | Nenhuma aparente | 5 | 5 | 5 | 4 | 3 | 4,4 |
+| P2 | Mulher, 47 anos | Sim | até 3 min | Não | Nenhuma aparente | 5 | 5 | 5 | 3 | 3 | 4,2 |
+| P3 | Homem, 55 anos | Sim | até 3 min | Não | Nenhuma aparente | 5 | 5 | 5 | 5 | 3 | 4,6 |
 
-**Ajuste feito a partir do feedback:** _(descreva a mudança, o arquivo alterado e o commit)_
+Q1 foi fácil descrever · Q2 entendi a resposta · Q3 confiei na classificação · Q4 saberia corrigir a classificação ·
+Q5 usaria em vez do 156.
+
+**O que o teste mostrou.** As três pessoas chegaram ao protocolo sem ajuda e sem corrigir a IA. A nota de uso mais
+baixa foi Q4 (média 4,0; 3 de P2): como ninguém precisou corrigir, o caminho de correção não foi usado, e a nota indica
+que ele não estava evidente. Q5 ficou em 3 para as três; o motivo não foi registrado (uma hipótese é que o Zela ainda
+não envia o relato ao 156, seção 8.4).
+
+**Ajuste feito a partir do feedback:** na tela de confirmação, o título passou de "Está correto?" para "Está correto?
+Se a IA errou, corrija aqui", com a instrução de trocar o tipo ou a urgência nas listas antes de confirmar
+(`frontend/features/relatar.py`, função `_revisao`; commit "Ajuste do teste com usuários: correção da IA explícita na
+confirmação"). Não houve nova rodada antes da entrega; o próximo teste deve pedir que cada pessoa corrija uma
+classificação de propósito. Limites: 3 pessoas próximas do autor, avaliação não cega. Detalhes em
+[`docs/validacao_usuarios.md`](docs/validacao_usuarios.md).
 
 #### (b) Casos de teste da IA
 Dez casos em `backend/scripts/casos_avaliacao.json` (típico, risco à vida, anonimização, *prompt injection*, fora do

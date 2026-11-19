@@ -44,7 +44,7 @@ Legenda: ✅ atendido no repositório · ⚠️ atendido com ressalva (explicada
 | 3.8 ODS com justificativa | README, seção 8.2 (ODS 11 e 16) | ✅ |
 | 3.8 Decisões técnicas (Streamlit, prompt, formato, deploy) | README, seção 8.3 | ✅ |
 | 3.8 Ética e limites da IA | README, seção 8.4 | ✅ |
-| 3.8 (a) Teste com 3 pessoas, roteiro, observações e um ajuste | Roteiro em `docs/validacao_usuarios.md`; README 8.5 (a) com a tabela a preencher | 🧑 aplicar o teste e preencher |
+| 3.8 (a) Teste com 3 pessoas, roteiro, observações e um ajuste | 3 pessoas em 19/11 (homem 22, mulher 47, homem 55): todas concluíram em até 3 min; Q4 foi a nota mais baixa de uso e gerou o ajuste da tela de confirmação (`docs/validacao_usuarios.md`, README 8.5 a) | ✅ |
 | 3.8 (b) Tabela com ao menos 3 casos de teste da IA | README 8.5 (b) e `docs/avaliacao_ia.md` (10 casos, prompt v3 x v4, ajustes) | ✅ |
 | 4 `requirements.txt` de cada serviço e README completo | `backend/requirements.txt`, `frontend/requirements.txt`, README | ✅ |
 | 4 Vídeo de até 5 min | Roteiro em `docs/roteiro_video.md` | 🧑 |
@@ -268,7 +268,6 @@ o texto do documento ABNT foi revisado para expressões vagas ou de efeito.
 Correções desta rodada: uma expressão de efeito no documento ABNT foi trocada por texto direto. Nenhum defeito de
 funcionamento apareceu.
 
-O que continua com o autor, por depender de pessoas, gravações ou contas: teste de usabilidade com 3 pessoas
-(Front End), conclusão do documento
+O que continua com o autor, por depender de pessoas, gravações ou contas: conclusão do documento
 ABNT escrita sem IA, vídeos, publicação no GitHub antes do prazo e as duas partes do vídeo de PLN (o professor confirmou
 que as duas entregas são exigidas). A lista completa, com os comandos para regerar os documentos depois, está em `ENTREGA.md`.
