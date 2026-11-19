@@ -4,7 +4,7 @@ Uso:  python docs/governanca/gerar_documento.py
 Saídas: docs/governanca/Zela_documentacao_integrada.docx e .pdf
 
 Os resultados numéricos são lidos dos arquivos de avaliação de cada módulo (metricas.py).
-Os links e a CONCLUSÃO devem ser preenchidos pelo autor: o enunciado proíbe usar IA para gerar a conclusão.
+A CONCLUSÃO foi escrita pelo autor, sem IA na redação (regra do enunciado); a IA só revisou fatos e gramática.
 """
 
 import sys
@@ -285,13 +285,15 @@ blocos = [
           "OuviAí roda isolado no celular para que nenhum áudio da casa do usuário saia do aparelho."),
 
     ("h1", "3 CONCLUSÃO"),
-    ("nota", "[Seção a ser escrita pelo autor, sem uso de IA na redação: o enunciado permite IA apenas para revisar o texto. "
-             "Sugestão de roteiro: (1) o problema que você quis resolver e para quem; (2) o que funcionou e os números que "
-             "mais pesaram para essa conclusão; (3) o que não funcionou ou ficou limitado, e por quê; (4) o que você "
-             "aprendeu sobre governança de IA ao integrar as disciplinas; (5) próximos passos. Apague este aviso.]"),
+    ("p", 'O Zela partiu de uma dificuldade comum na zeladoria urbana. O morador sabe dizer que um bueiro transbordou ou que há uma fissura em um muro, mas nem sempre sabe a quem recorrer ou como descrever o risco. A equipe gestora, por sua vez, precisa decidir quais ocorrências atender primeiro. O protótipo reuniu essas duas perspectivas em um fluxo no qual o cidadão relata o problema com suas palavras, confere a classificação sugerida pela IA e recebe um protocolo que permite acompanhar a solicitação.'),
+    ("p", 'Nos testes, a revisão das instruções e o tratamento do texto de entrada elevaram os acertos da triagem de 3 para 8 nos mesmos 10 casos. O assistente respondeu corretamente e citou a fonte em 10 das 11 perguntas que podiam ser respondidas com a documentação. A análise de fotos, o assistente por texto e voz e o robô que atualiza as ordens de serviço foram integrados ao atendimento. O cluster serviu para simular filas após temporais, a otimização quântica ficou como proposta para o despacho de equipes e o OuviAí permaneceu no celular para preservar a privacidade do áudio.'),
+    ("p", 'Ao integrar as disciplinas, aprendi que governar a IA exige definir quando ela pode responder, quem pode corrigir sua decisão e como reconstruir o que aconteceu. Em um teste por voz, o assistente deu orientação médica com base em uma página sobre chuvas. Essa falha levou à criação de uma regra de recusa antes da busca. No Zela, o assistente deve se abster quando falta evidência, as regras de segurança só podem elevar a urgência e o histórico preserva tanto a sugestão original quanto a classificação confirmada pelo cidadão.'),
+    ("p", 'O próximo passo é testar o fluxo com moradores e equipes de campo. Comparar o tempo de triagem e examinar os casos que exigem correção permitirá avaliar se o Zela reduz o retrabalho e ajuda as ocorrências urgentes a chegar mais cedo à equipe responsável.'),
 
     ("h1", "4 LINKS", False),
-    ("itens", ["Vídeo (YouTube, não listado): [colar o link]", "Repositório no GitHub: [colar o link]"]),
+    ("itens", ["Vídeo integrador (YouTube, não listado): https://youtu.be/WPcYaI7U0ww",
+               "Repositório no GitHub: https://github.com/guialmeida2702/zela-gs-2026-2",
+               "Vídeos de cada disciplina: tabela no início do README do repositório"]),
 ]
 
 referencias = [
