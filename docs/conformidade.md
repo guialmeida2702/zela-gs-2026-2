@@ -14,10 +14,10 @@ Legenda: ✅ atendido no repositório · ⚠️ atendido com ressalva (explicada
 |---|---|---|
 | Nome completo e RM do autor nos materiais | README de cada módulo, capas dos relatórios em PDF, capa e folha de rosto do documento ABNT | ✅ |
 | Entrega individual permitida | Enunciado geral ("trio, dupla ou individualmente") e enunciados das disciplinas | ✅ |
-| Repositório no GitHub com tudo antes do prazo (19/11/2026, 23h55) | `ENTREGA.md` explica o que subir | 🧑 publicar e colar o link no README e no tópico "Links" do documento ABNT |
+| Repositório no GitHub com tudo antes do prazo (19/11/2026, 23h55) | https://github.com/guialmeida2702/zela-gs-2026-2, link no README e no tópico "Links" do documento ABNT | ✅ |
 | Chaves fora do código e do repositório | `.env.example` sem valores; `.gitignore` com `.env`; leitura por variável de ambiente | ✅ |
 | Dados pessoais reais fora de APIs | Dados de teste sintéticos ou públicos; anonimização antes do LLM | ✅ |
-| Vídeo pitch de até 7 min para o prêmio (opcional) | Roteiro em `docs/roteiro_video_integrador.md` | 🧑 |
+| Vídeo pitch de até 7 min para o prêmio (opcional) | Vídeo integrador https://youtu.be/WPcYaI7U0ww (6 min 38 s) | ✅ |
 
 ## Front End & Mobile (Front-end em Sistemas de IA)
 
@@ -47,7 +47,7 @@ Legenda: ✅ atendido no repositório · ⚠️ atendido com ressalva (explicada
 | 3.8 (a) Teste com 3 pessoas, roteiro, observações e um ajuste | 3 pessoas em 19/11 (homem 22, mulher 47, homem 55): todas concluíram em até 3 min; Q4 foi a nota mais baixa de uso e gerou o ajuste da tela de confirmação (`docs/validacao_usuarios.md`, README 8.5 a) | ✅ |
 | 3.8 (b) Tabela com ao menos 3 casos de teste da IA | README 8.5 (b) e `docs/avaliacao_ia.md` (10 casos, prompt v3 x v4, ajustes) | ✅ |
 | 4 `requirements.txt` de cada serviço e README completo | `backend/requirements.txt`, `frontend/requirements.txt`, README | ✅ |
-| 4 Vídeo de até 5 min | Roteiro em `docs/roteiro_video.md` | 🧑 |
+| 4 Vídeo de até 5 min | https://youtu.be/JcFEKq4wdOY | ✅ |
 | Diferenciais: Docker + deploy, dados abertos, RBAC do gestor, modelo próprio, testes, acessibilidade avançada | README, seção 11 | ✅ (deploy público 🧑) |
 
 ## Visão Computacional
@@ -65,7 +65,7 @@ Legenda: ✅ atendido no repositório · ⚠️ atendido com ressalva (explicada
 | Justificativa de arquitetura, pré-processamento e limiar | Relatório | ✅ |
 | Gravidade não é inferida da presença de fissura | Texto da interface e do relatório | ✅ |
 | Notebook ou código executável, relatório breve | `visao_computacional/pipeline.py`, `docs/relatorios/pdf/visao_computacional.pdf` | ✅ |
-| Vídeo de demonstração | Roteiro no fim do relatório | 🧑 |
+| Vídeo de demonstração | https://youtu.be/Xs4jRR95iy4 | ✅ |
 
 ## Generative AI & Advanced Nets
 
@@ -85,7 +85,7 @@ Legenda: ✅ atendido no repositório · ⚠️ atendido com ressalva (explicada
 | Interpretação dos resultados e impacto para o cidadão | Relatório, seção 8 | ✅ |
 | Código, dependências e instruções | `backend/requirements.txt`, relatório, seção 10 | ✅ |
 | Credenciais e dados pessoais não expostos | `.env.example`; anonimização da pergunta | ✅ |
-| Vídeo de até 5 min | Roteiro no fim do relatório | 🧑 |
+| Vídeo de até 5 min | https://youtu.be/MjPO4xvkqT4 | ✅ |
 
 ## NLP, Chatbots & Virtual Agents
 
@@ -117,7 +117,7 @@ repositório; o relatório de PLN cobre as duas (seções 1 a 7 e seção 8).
 | README com arquitetura, modelos com versão e licença, execução, nome completo | `assistente_voz/README.md` | ✅ |
 | Material de teste: áudios, perguntas com respostas esperadas, planilhas | `avaliacao/audios_sinteticos/`, `perguntas_llm.json`, `planilha_avaliacao.xlsx` | ✅ |
 | Relatório em PDF | `docs/relatorios/pdf/pln_assistente_voz.pdf` | ✅ |
-| Vídeo de até 5 min com conversa real de 3 turnos, continuação e recusa | Roteiro no relatório, seção 9 | 🧑 |
+| Vídeo de até 5 min com conversa real de 3 turnos, continuação e recusa | https://youtu.be/koG6Juh39FA (4 turnos por voz, com continuação e recusa) | ✅ |
 
 **Ferramenta de construção de corpus (`corpus_pln/`), conforme o enunciado geral**
 
@@ -129,7 +129,7 @@ repositório; o relatório de PLN cobre as duas (seções 1 a 7 e seção 8).
 | Uso em fine-tuning de LLM pequeno | Treino e validação por documento, rastreabilidade, estatísticas e ficha do corpus | ✅ |
 | Testes | `corpus_pln/tests/` (13 testes) | ✅ |
 | Documentação | `corpus_pln/README.md` e seção 8 do relatório de PLN, com os números da execução registrada em `corpus_pln/resultados/` | ✅ |
-| Vídeo | parte final do vídeo de PLN (cerca de 1 min) | 🧑 |
+| Vídeo | parte final do vídeo de PLN, https://youtu.be/koG6Juh39FA | ✅ |
 
 ## AI for RPA
 
@@ -193,9 +193,9 @@ repositório; o relatório de PLN cobre as duas (seções 1 a 7 e seção 8).
 | Listas e sumário | Listas de figuras, quadros e tabelas e sumário gerados automaticamente; inventário dos ativos de IA no quadro da seção 2.9.1 | ✅ |
 | Introdução | Seção 1 | ✅ |
 | Desenvolvimento com um tópico por disciplina, terminando em Governança, com o que foi ou não integrado | Seções 2.1 a 2.9 e quadro 2.9.5 | ✅ |
-| Conclusão escrita pelo autor, sem IA na redação | Seção 3 com aviso e roteiro | 🧑 escrever |
-| Tópico "Links" | Seção 4 | 🧑 colar os links |
-| Vídeo de 5 a 7 min no YouTube, não listado, sem leitura de texto | `docs/roteiro_video_integrador.md` | 🧑 |
+| Conclusão escrita pelo autor, sem IA na redação | Seção 3, escrita pelo autor; a IA só revisou fatos e gramática | ✅ |
+| Tópico "Links" | Seção 4: vídeo integrador e repositório; vídeos das disciplinas no README | ✅ |
+| Vídeo de 5 a 7 min no YouTube, não listado, sem leitura de texto | https://youtu.be/WPcYaI7U0ww (6 min 38 s) | ✅ |
 | GitHub sem commits depois da entrega | `ENTREGA.md` | 🧑 |
 | Sem excesso de jargões de IA | Texto revisado (frases diretas, sem hipérboles nem travessões em excesso) | ✅ |
 
@@ -268,6 +268,4 @@ o texto do documento ABNT foi revisado para expressões vagas ou de efeito.
 Correções desta rodada: uma expressão de efeito no documento ABNT foi trocada por texto direto. Nenhum defeito de
 funcionamento apareceu.
 
-O que continua com o autor, por depender de pessoas, gravações ou contas: conclusão do documento
-ABNT escrita sem IA, vídeos, publicação no GitHub antes do prazo e as duas partes do vídeo de PLN (o professor confirmou
-que as duas entregas são exigidas). A lista completa, com os comandos para regerar os documentos depois, está em `ENTREGA.md`.
+O que continua com o autor: o envio no Portal do Aluno, disciplina por disciplina, sem commits no GitHub depois dele. A lista completa, com os comandos para regerar os documentos depois, está em `ENTREGA.md`.
